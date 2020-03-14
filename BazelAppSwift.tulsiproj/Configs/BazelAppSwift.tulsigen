@@ -1,0 +1,91 @@
+{
+  "additionalFilePaths" : [
+    "app/BUILD",
+    "react/BUILD"
+  ],
+  "buildTargets" : [
+    "//app:BazelAppSwift",
+    "//app:SwiftLib"
+  ],
+  "optionSet" : {
+    "BazelBuildOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildOptionsRelease" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildStartupOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildStartupOptionsRelease" : {
+      "p" : "$(inherited)"
+    },
+    "BuildActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "BuildActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "CommandlineArguments" : {
+      "p" : "$(inherited)"
+    },
+    "EnvironmentVariables" : {
+      "p" : "$(inherited)"
+    },
+    "LaunchActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "LaunchActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "ProjectGenerationBazelStartupOptions" : {
+      "p" : "$(inherited)"
+    },
+    "TestActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "TestActionPreActionScript" : {
+      "p" : "$(inherited)"
+    }
+  },
+  "projectName" : "BazelAppSwift",
+  "sourceFilters" : [
+    "app",
+    "react",
+    "react/headers",
+    "react/headers/Base",
+    "react/headers/Base/Surface",
+    "react/headers/Base/Surface/SurfaceHostingView",
+    "react/headers/CoreModules",
+    "react/headers/CxxBridge",
+    "react/headers/CxxModule",
+    "react/headers/CxxUtils",
+    "react/headers/DevSupport",
+    "react/headers/Fabric",
+    "react/headers/Fabric/Mounting",
+    "react/headers/Fabric/Mounting/ComponentViews",
+    "react/headers/Fabric/Mounting/ComponentViews/ActivityIndicator",
+    "react/headers/Fabric/Mounting/ComponentViews/Image",
+    "react/headers/Fabric/Mounting/ComponentViews/Modal",
+    "react/headers/Fabric/Mounting/ComponentViews/Root",
+    "react/headers/Fabric/Mounting/ComponentViews/ScrollView",
+    "react/headers/Fabric/Mounting/ComponentViews/Slider",
+    "react/headers/Fabric/Mounting/ComponentViews/Switch",
+    "react/headers/Fabric/Mounting/ComponentViews/Text",
+    "react/headers/Fabric/Mounting/ComponentViews/UnimplementedComponent",
+    "react/headers/Fabric/Mounting/ComponentViews/View",
+    "react/headers/Fabric/Surface",
+    "react/headers/Fabric/Utils",
+    "react/headers/Inspector",
+    "react/headers/Modules",
+    "react/headers/Profiler",
+    "react/headers/React",
+    "react/headers/UIUtils",
+    "react/headers/Views",
+    "react/headers/Views/SafeAreaView",
+    "react/headers/Views/ScrollView",
+    "react/headers/yoga",
+    "react/headers/yoga/event",
+    "react/headers/yoga/internal"
+  ]
+}

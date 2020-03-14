@@ -1,0 +1,15 @@
+{
+  "configDefaults" : {
+    "optionSet" : {
+      "BazelBuildOptionsDebug" : {
+        "p" : "--strategy=SwiftCompile=standalone --apple_generate_dsym"
+      }
+    }
+  },
+  "packages" : [
+    "app",
+    "react"
+  ],
+  "projectName" : "BazelAppSwift",
+  "workspaceRoot" : ".."
+}
