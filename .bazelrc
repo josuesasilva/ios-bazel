@@ -4,7 +4,7 @@ build \
   --xcode_version=11.3.0 \
   --ios_minimum_os=10.0 \
   --ios_simulator_device="iPhone 11" \
-  --ios_simulator_version=13.1 \
+  --ios_simulator_version=13.3 \
   --verbose_failures \
   
 test --verbose_failures
