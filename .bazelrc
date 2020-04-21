@@ -1,7 +1,7 @@
 
 build \
   --apple_platform_type=ios \
-  --xcode_version=11.3.0 \
+  --xcode_version=11.4.0 \
   --ios_minimum_os=10.0 \
   --ios_simulator_device="iPhone 11" \
   --ios_simulator_version=13.3 \
