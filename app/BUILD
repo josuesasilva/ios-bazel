@@ -25,7 +25,11 @@ swift_library(
     name = "SwiftLib",
     srcs = glob(["*.swift"]),
     swiftc_inputs = ["Bridging-Header.h"],
-    #copts = [ "-strategy=SwiftCompile=standalone"],
+    copts = [
+        "-Xwrapped-swift=-debug-prefix-pwd-is-dot",
+        "-Xfrontend",
+        "-no-clang-module-breadcrumbs"
+    ],
     deps = [':ObjcLib'],
 )
 
