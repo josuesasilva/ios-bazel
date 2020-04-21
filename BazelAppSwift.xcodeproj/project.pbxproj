@@ -1,0 +1,2180 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276A9623787DDD0500000000 /* ViewController.swift in app */ = {isa = PBXBuildFile; fileRef = BC830EE6787DDD0500000000 /* ViewController.swift */; };
+		276A9623A7D90C1000000000 /* AppDelegate.swift in app */ = {isa = PBXBuildFile; fileRef = BC830EE6A7D90C1000000000 /* AppDelegate.swift */; };
+		276A9623F15DFFDF00000000 /* RNView.m in app */ = {isa = PBXBuildFile; fileRef = BC830EE6F15DFFDF00000000 /* RNView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EA342993128DED500000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169347B0CA105DAE00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EC5C41D3128DED400000000;
+		};
+		6EA342999A6FC6E500000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169347B0CA105DAE00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 111948F59A6FC6E400000000;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC830EE6007DE1C100000000 /* ModuleRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ModuleRegistry.h; path = react/headers/cxxreact/ModuleRegistry.h; sourceTree = "<group>"; };
+		BC830EE60107C17C00000000 /* experiments.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = experiments.h; path = react/headers/yoga/internal/experiments.h; sourceTree = "<group>"; };
+		BC830EE601091BFD00000000 /* DispatchMessageQueueThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DispatchMessageQueueThread.h; path = react/headers/CxxModule/DispatchMessageQueueThread.h; sourceTree = "<group>"; };
+		BC830EE6019AF07D00000000 /* RCTReconnectingWebSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTReconnectingWebSocket.h; path = react/headers/React/RCTReconnectingWebSocket.h; sourceTree = "<group>"; };
+		BC830EE601E5F58400000000 /* RCTRedBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRedBox.h; path = react/headers/React/RCTRedBox.h; sourceTree = "<group>"; };
+		BC830EE60221BCB700000000 /* RCTRedBoxExtraDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRedBoxExtraDataViewController.h; path = react/headers/Modules/RCTRedBoxExtraDataViewController.h; sourceTree = "<group>"; };
+		BC830EE60245F06B00000000 /* RCTTVNavigationEventEmitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTVNavigationEventEmitter.h; path = react/headers/Modules/RCTTVNavigationEventEmitter.h; sourceTree = "<group>"; };
+		BC830EE60265C55400000000 /* RCTDisplayLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDisplayLink.h; path = react/headers/React/RCTDisplayLink.h; sourceTree = "<group>"; };
+		BC830EE6028A1FF500000000 /* RCTTouchableComponentViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTouchableComponentViewProtocol.h; path = react/headers/Fabric/RCTTouchableComponentViewProtocol.h; sourceTree = "<group>"; };
+		BC830EE602A1CEAA00000000 /* RCTSurfaceHostingComponent+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RCTSurfaceHostingComponent+Internal.h"; path = "react/headers/React/RCTSurfaceHostingComponent+Internal.h"; sourceTree = "<group>"; };
+		BC830EE602BDF2F400000000 /* RCTModuloAnimatedNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTModuloAnimatedNode.h; path = react/headers/React/RCTModuloAnimatedNode.h; sourceTree = "<group>"; };
+		BC830EE602EC1AFF00000000 /* RCTScheduler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTScheduler.h; path = react/headers/React/RCTScheduler.h; sourceTree = "<group>"; };
+		BC830EE6031E272800000000 /* RCTAnimatedImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAnimatedImage.h; path = react/headers/React/RCTAnimatedImage.h; sourceTree = "<group>"; };
+		BC830EE6036DB01D00000000 /* UIView+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+Private.h"; path = "react/headers/Views/UIView+Private.h"; sourceTree = "<group>"; };
+		BC830EE603ECDF9700000000 /* RCTObjcExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTObjcExecutor.h; path = react/headers/React/RCTObjcExecutor.h; sourceTree = "<group>"; };
+		BC830EE604ECDD2600000000 /* RCTConvert+Text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RCTConvert+Text.h"; path = "react/headers/React/RCTConvert+Text.h"; sourceTree = "<group>"; };
+		BC830EE60523918A00000000 /* RCTPointerEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPointerEvents.h; path = react/headers/Views/RCTPointerEvents.h; sourceTree = "<group>"; };
+		BC830EE60545429900000000 /* RCTShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTShadowView.h; path = react/headers/React/RCTShadowView.h; sourceTree = "<group>"; };
+		BC830EE605A3531600000000 /* RCTVibration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTVibration.h; path = react/headers/React/RCTVibration.h; sourceTree = "<group>"; };
+		BC830EE605CBCBB000000000 /* RCTBorderStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBorderStyle.h; path = react/headers/Views/RCTBorderStyle.h; sourceTree = "<group>"; };
+		BC830EE605FF7F9500000000 /* RCTSegmentedControlManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSegmentedControlManager.h; path = react/headers/Views/RCTSegmentedControlManager.h; sourceTree = "<group>"; };
+		BC830EE606FEA5BA00000000 /* ARTPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTPattern.h; path = react/headers/React/ARTPattern.h; sourceTree = "<group>"; };
+		BC830EE607ED5B7F00000000 /* RCTExceptionsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTExceptionsManager.h; path = react/headers/React/RCTExceptionsManager.h; sourceTree = "<group>"; };
+		BC830EE60923A30800000000 /* RCTFabricSurfaceHostingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFabricSurfaceHostingView.h; path = react/headers/Fabric/Surface/RCTFabricSurfaceHostingView.h; sourceTree = "<group>"; };
+		BC830EE60955792900000000 /* RCTScheduler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTScheduler.h; path = react/headers/Fabric/RCTScheduler.h; sourceTree = "<group>"; };
+		BC830EE60AFF548F00000000 /* RCTPullToRefreshViewComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPullToRefreshViewComponentView.h; path = react/headers/Fabric/Mounting/ComponentViews/ScrollView/RCTPullToRefreshViewComponentView.h; sourceTree = "<group>"; };
+		BC830EE60B3DD29100000000 /* RCTAnimatedNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAnimatedNode.h; path = react/headers/React/RCTAnimatedNode.h; sourceTree = "<group>"; };
+		BC830EE60BC4909A00000000 /* Yoga.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Yoga.h; path = react/headers/yoga/Yoga.h; sourceTree = "<group>"; };
+		BC830EE60C5EFC9E00000000 /* RCTComponentViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTComponentViewProtocol.h; path = react/headers/React/RCTComponentViewProtocol.h; sourceTree = "<group>"; };
+		BC830EE60D85FADB00000000 /* UIView+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+Private.h"; path = "react/headers/React/UIView+Private.h"; sourceTree = "<group>"; };
+		BC830EE60E07E46D00000000 /* RCTUITextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTUITextView.h; path = react/headers/React/RCTUITextView.h; sourceTree = "<group>"; };
+		BC830EE60E2B5A8700000000 /* RCTInspectorPackagerConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTInspectorPackagerConnection.h; path = react/headers/Inspector/RCTInspectorPackagerConnection.h; sourceTree = "<group>"; };
+		BC830EE60E6F082A00000000 /* RCTDevMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDevMenu.h; path = react/headers/React/RCTDevMenu.h; sourceTree = "<group>"; };
+		BC830EE60E8738EE00000000 /* ARTRenderableManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTRenderableManager.h; path = react/headers/React/ARTRenderableManager.h; sourceTree = "<group>"; };
+		BC830EE60F247CE400000000 /* libSwiftLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = libSwiftLib.a; path = libSwiftLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC830EE60FC651C800000000 /* RCTView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTView.h; path = react/headers/React/RCTView.h; sourceTree = "<group>"; };
+		BC830EE610E9C9B200000000 /* RCTUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTUtils.h; path = react/headers/React/RCTUtils.h; sourceTree = "<group>"; };
+		BC830EE6123BFCD200000000 /* RCTAccessibilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAccessibilityManager.h; path = react/headers/Modules/RCTAccessibilityManager.h; sourceTree = "<group>"; };
+		BC830EE613DA76CC00000000 /* ARTLinearGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTLinearGradient.h; path = react/headers/React/ARTLinearGradient.h; sourceTree = "<group>"; };
+		BC830EE6150940FC00000000 /* RuntimeEventBeat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RuntimeEventBeat.h; path = react/headers/Fabric/Utils/RuntimeEventBeat.h; sourceTree = "<group>"; };
+		BC830EE6159ABB7700000000 /* RNView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RNView.h; path = app/RNView.h; sourceTree = "<group>"; };
+		BC830EE6160B668400000000 /* Sample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sample.h; path = react/headers/React/Sample.h; sourceTree = "<group>"; };
+		BC830EE616293DA500000000 /* Yoga-internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Yoga-internal.h"; path = "react/headers/yoga/Yoga-internal.h"; sourceTree = "<group>"; };
+		BC830EE6164B21BD00000000 /* RCTSpringAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSpringAnimation.h; path = react/headers/React/RCTSpringAnimation.h; sourceTree = "<group>"; };
+		BC830EE61673F5B500000000 /* RCTSurfaceRootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceRootView.h; path = react/headers/React/RCTSurfaceRootView.h; sourceTree = "<group>"; };
+		BC830EE61698DE6B00000000 /* RCTImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageLoader.h; path = react/headers/React/RCTImageLoader.h; sourceTree = "<group>"; };
+		BC830EE616A45A0A00000000 /* JSDeltaBundleClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSDeltaBundleClient.h; path = react/headers/cxxreact/JSDeltaBundleClient.h; sourceTree = "<group>"; };
+		BC830EE616E35A0500000000 /* RCTBorderDrawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBorderDrawing.h; path = react/headers/React/RCTBorderDrawing.h; sourceTree = "<group>"; };
+		BC830EE6172F2C0100000000 /* RCTDatePickerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDatePickerManager.h; path = react/headers/React/RCTDatePickerManager.h; sourceTree = "<group>"; };
+		BC830EE61734F4A600000000 /* JSCExecutorFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSCExecutorFactory.h; path = react/headers/React/JSCExecutorFactory.h; sourceTree = "<group>"; };
+		BC830EE61828F7C900000000 /* RCTDevSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDevSettings.h; path = react/headers/React/RCTDevSettings.h; sourceTree = "<group>"; };
+		BC830EE618DF139800000000 /* RCTModalHostViewComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTModalHostViewComponentView.h; path = react/headers/Fabric/Mounting/ComponentViews/Modal/RCTModalHostViewComponentView.h; sourceTree = "<group>"; };
+		BC830EE618ECAADE00000000 /* YGNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YGNode.h; path = react/headers/yoga/YGNode.h; sourceTree = "<group>"; };
+		BC830EE61973D27E00000000 /* RCTBorderStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBorderStyle.h; path = react/headers/React/RCTBorderStyle.h; sourceTree = "<group>"; };
+		BC830EE619BFCC2000000000 /* RCTBridgeMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBridgeMethod.h; path = react/headers/React/RCTBridgeMethod.h; sourceTree = "<group>"; };
+		BC830EE619D1353D00000000 /* RCTModalHostViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTModalHostViewManager.h; path = react/headers/React/RCTModalHostViewManager.h; sourceTree = "<group>"; };
+		BC830EE61A4AC80900000000 /* RCTRootViewInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRootViewInternal.h; path = react/headers/React/RCTRootViewInternal.h; sourceTree = "<group>"; };
+		BC830EE61A9F48FF00000000 /* RCTWebSocketModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTWebSocketModule.h; path = react/headers/React/RCTWebSocketModule.h; sourceTree = "<group>"; };
+		BC830EE61AC3B8C700000000 /* RCTScrollViewComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTScrollViewComponentView.h; path = react/headers/React/RCTScrollViewComponentView.h; sourceTree = "<group>"; };
+		BC830EE61B72B63100000000 /* RCTShadowView+Layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RCTShadowView+Layout.h"; path = "react/headers/React/RCTShadowView+Layout.h"; sourceTree = "<group>"; };
+		BC830EE61B9896BB00000000 /* RCTImageStoreManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageStoreManager.h; path = react/headers/CoreModules/RCTImageStoreManager.h; sourceTree = "<group>"; };
+		BC830EE61BC4A95600000000 /* RCTMaskedViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMaskedViewManager.h; path = react/headers/Views/RCTMaskedViewManager.h; sourceTree = "<group>"; };
+		BC830EE61C66B76E00000000 /* RCTSettingsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSettingsManager.h; path = react/headers/React/RCTSettingsManager.h; sourceTree = "<group>"; };
+		BC830EE61D73615400000000 /* RCTWrapperViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTWrapperViewManager.h; path = react/headers/React/RCTWrapperViewManager.h; sourceTree = "<group>"; };
+		BC830EE61D7431BC00000000 /* RCTScrollContentShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTScrollContentShadowView.h; path = react/headers/Views/ScrollView/RCTScrollContentShadowView.h; sourceTree = "<group>"; };
+		BC830EE61E224B8800000000 /* RCTWrapperReactRootViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTWrapperReactRootViewManager.h; path = react/headers/React/RCTWrapperReactRootViewManager.h; sourceTree = "<group>"; };
+		BC830EE61E2416DB00000000 /* experiments-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "experiments-inl.h"; path = "react/headers/yoga/internal/experiments-inl.h"; sourceTree = "<group>"; };
+		BC830EE61E4E5ADB00000000 /* RCTTextSelection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTextSelection.h; path = react/headers/React/RCTTextSelection.h; sourceTree = "<group>"; };
+		BC830EE61ED07C5100000000 /* RCTUIManagerObserverCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTUIManagerObserverCoordinator.h; path = react/headers/Modules/RCTUIManagerObserverCoordinator.h; sourceTree = "<group>"; };
+		BC830EE61ED0B4BB00000000 /* RCTInspector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTInspector.h; path = react/headers/React/RCTInspector.h; sourceTree = "<group>"; };
+		BC830EE61EE8985100000000 /* RCTNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTNetworking.h; path = react/headers/React/RCTNetworking.h; sourceTree = "<group>"; };
+		BC830EE61F0F7EE600000000 /* RCTTiming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTiming.h; path = react/headers/Modules/RCTTiming.h; sourceTree = "<group>"; };
+		BC830EE620065B4800000000 /* RCTManagedPointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTManagedPointer.h; path = react/headers/React/RCTManagedPointer.h; sourceTree = "<group>"; };
+		BC830EE620D31ED400000000 /* RCTWrapperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTWrapperViewController.h; path = react/headers/Views/RCTWrapperViewController.h; sourceTree = "<group>"; };
+		BC830EE621ECC59F00000000 /* RCTScrollViewComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTScrollViewComponentView.h; path = react/headers/Fabric/Mounting/ComponentViews/ScrollView/RCTScrollViewComponentView.h; sourceTree = "<group>"; };
+		BC830EE6223D6B6000000000 /* RCTSurface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurface.h; path = react/headers/React/RCTSurface.h; sourceTree = "<group>"; };
+		BC830EE6224CB63E00000000 /* RCTViewComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTViewComponentView.h; path = react/headers/Fabric/Mounting/ComponentViews/View/RCTViewComponentView.h; sourceTree = "<group>"; };
+		BC830EE62279340200000000 /* RCTVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTVersion.h; path = react/headers/React/RCTVersion.h; sourceTree = "<group>"; };
+		BC830EE62285FB8500000000 /* RCTModalManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTModalManager.h; path = react/headers/Views/RCTModalManager.h; sourceTree = "<group>"; };
+		BC830EE623AF617C00000000 /* CoreModulesPlugins.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CoreModulesPlugins.h; path = react/headers/React/CoreModulesPlugins.h; sourceTree = "<group>"; };
+		BC830EE6247DF08000000000 /* RuntimeEventBeat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RuntimeEventBeat.h; path = react/headers/React/RuntimeEventBeat.h; sourceTree = "<group>"; };
+		BC830EE62482866B00000000 /* RCTViewComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTViewComponentView.h; path = react/headers/React/RCTViewComponentView.h; sourceTree = "<group>"; };
+		BC830EE624BDFF4F00000000 /* RCTImageBlurUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageBlurUtils.h; path = react/headers/React/RCTImageBlurUtils.h; sourceTree = "<group>"; };
+		BC830EE624CB990500000000 /* RCTBackedTextInputDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBackedTextInputDelegate.h; path = react/headers/React/RCTBackedTextInputDelegate.h; sourceTree = "<group>"; };
+		BC830EE626772ECC00000000 /* RCTNativeAnimatedNodesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTNativeAnimatedNodesManager.h; path = react/headers/React/RCTNativeAnimatedNodesManager.h; sourceTree = "<group>"; };
+		BC830EE6269D66FE00000000 /* RCTFileReaderModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFileReaderModule.h; path = react/headers/React/RCTFileReaderModule.h; sourceTree = "<group>"; };
+		BC830EE626B5A0C800000000 /* ReactMarker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ReactMarker.h; path = react/headers/cxxreact/ReactMarker.h; sourceTree = "<group>"; };
+		BC830EE627125B4100000000 /* RCTI18nManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTI18nManager.h; path = react/headers/React/RCTI18nManager.h; sourceTree = "<group>"; };
+		BC830EE627A9D61400000000 /* RCTSwitchComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSwitchComponentView.h; path = react/headers/React/RCTSwitchComponentView.h; sourceTree = "<group>"; };
+		BC830EE628E7B55800000000 /* RCTWrapperReactRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTWrapperReactRootViewController.h; path = react/headers/React/RCTWrapperReactRootViewController.h; sourceTree = "<group>"; };
+		BC830EE628FD456B00000000 /* RCTPickerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPickerManager.h; path = react/headers/Views/RCTPickerManager.h; sourceTree = "<group>"; };
+		BC830EE6299AA1E600000000 /* RCTSourceCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSourceCode.h; path = react/headers/React/RCTSourceCode.h; sourceTree = "<group>"; };
+		BC830EE629B4B39D00000000 /* RCTDevMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDevMenu.h; path = react/headers/DevSupport/RCTDevMenu.h; sourceTree = "<group>"; };
+		BC830EE629FFF20D00000000 /* RCTTextDecorationLineType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTextDecorationLineType.h; path = react/headers/React/RCTTextDecorationLineType.h; sourceTree = "<group>"; };
+		BC830EE62A08A54B00000000 /* event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = event.h; path = react/headers/yoga/event/event.h; sourceTree = "<group>"; };
+		BC830EE62A3EF9F800000000 /* RCTPickerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPickerManager.h; path = react/headers/React/RCTPickerManager.h; sourceTree = "<group>"; };
+		BC830EE62A5AB49000000000 /* RCTSafeAreaViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSafeAreaViewManager.h; path = react/headers/Views/SafeAreaView/RCTSafeAreaViewManager.h; sourceTree = "<group>"; };
+		BC830EE62A646FF600000000 /* JsArgumentHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JsArgumentHelpers.h; path = react/headers/cxxreact/JsArgumentHelpers.h; sourceTree = "<group>"; };
+		BC830EE62B3556D300000000 /* RCTDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDefines.h; path = react/headers/React/RCTDefines.h; sourceTree = "<group>"; };
+		BC830EE62C3D8E6800000000 /* RCTImageURLLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageURLLoader.h; path = react/headers/React/RCTImageURLLoader.h; sourceTree = "<group>"; };
+		BC830EE62D04361B00000000 /* YGStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YGStyle.h; path = react/headers/yoga/YGStyle.h; sourceTree = "<group>"; };
+		BC830EE62D6E779B00000000 /* RCTFabricSurfaceHostingProxyRootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFabricSurfaceHostingProxyRootView.h; path = react/headers/Fabric/Surface/RCTFabricSurfaceHostingProxyRootView.h; sourceTree = "<group>"; };
+		BC830EE62DE42AEA00000000 /* ARTTextFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTTextFrame.h; path = react/headers/React/ARTTextFrame.h; sourceTree = "<group>"; };
+		BC830EE62E7C5FE100000000 /* RCTShadowView+Layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RCTShadowView+Layout.h"; path = "react/headers/Views/RCTShadowView+Layout.h"; sourceTree = "<group>"; };
+		BC830EE62EF72E9600000000 /* RCTInspectorPackagerConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTInspectorPackagerConnection.h; path = react/headers/React/RCTInspectorPackagerConnection.h; sourceTree = "<group>"; };
+		BC830EE62F82464D00000000 /* RCTConvert+Transform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RCTConvert+Transform.h"; path = "react/headers/React/RCTConvert+Transform.h"; sourceTree = "<group>"; };
+		BC830EE62FFCE11700000000 /* RCTTouchHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTouchHandler.h; path = react/headers/React/RCTTouchHandler.h; sourceTree = "<group>"; };
+		BC830EE63003C1CE00000000 /* jsi-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "jsi-inl.h"; path = "react/headers/jsi/jsi-inl.h"; sourceTree = "<group>"; };
+		BC830EE6308E820500000000 /* CxxModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CxxModule.h; path = react/headers/cxxreact/CxxModule.h; sourceTree = "<group>"; };
+		BC830EE6311C944C00000000 /* RCTActivityIndicatorViewComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTActivityIndicatorViewComponentView.h; path = react/headers/React/RCTActivityIndicatorViewComponentView.h; sourceTree = "<group>"; };
+		BC830EE6315B38D700000000 /* RCTRefreshControlManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRefreshControlManager.h; path = react/headers/Views/RCTRefreshControlManager.h; sourceTree = "<group>"; };
+		BC830EE6336B87F600000000 /* RCTParagraphComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTParagraphComponentView.h; path = react/headers/React/RCTParagraphComponentView.h; sourceTree = "<group>"; };
+		BC830EE63413A01500000000 /* RCTTouchableComponentViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTouchableComponentViewProtocol.h; path = react/headers/React/RCTTouchableComponentViewProtocol.h; sourceTree = "<group>"; };
+		BC830EE6343CE9FE00000000 /* SampleCxxModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SampleCxxModule.h; path = react/headers/cxxreact/SampleCxxModule.h; sourceTree = "<group>"; };
+		BC830EE634E9C02D00000000 /* RCTImageDataDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageDataDecoder.h; path = react/headers/React/RCTImageDataDecoder.h; sourceTree = "<group>"; };
+		BC830EE63638892300000000 /* YGValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YGValue.h; path = react/headers/yoga/YGValue.h; sourceTree = "<group>"; };
+		BC830EE6365EF6A000000000 /* RCTWrapperExampleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTWrapperExampleView.h; path = react/headers/React/RCTWrapperExampleView.h; sourceTree = "<group>"; };
+		BC830EE63687674500000000 /* RCTSliderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSliderManager.h; path = react/headers/React/RCTSliderManager.h; sourceTree = "<group>"; };
+		BC830EE636D361A000000000 /* RCTStatusBarManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTStatusBarManager.h; path = react/headers/React/RCTStatusBarManager.h; sourceTree = "<group>"; };
+		BC830EE638772C5E00000000 /* RCTBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBridge.h; path = react/headers/React/RCTBridge.h; sourceTree = "<group>"; };
+		BC830EE63895FF0200000000 /* YGConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YGConfig.h; path = react/headers/yoga/YGConfig.h; sourceTree = "<group>"; };
+		BC830EE63912C0E500000000 /* RCTImageViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageViewManager.h; path = react/headers/React/RCTImageViewManager.h; sourceTree = "<group>"; };
+		BC830EE639704CBE00000000 /* RCTCxxBridgeDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTCxxBridgeDelegate.h; path = react/headers/CxxBridge/RCTCxxBridgeDelegate.h; sourceTree = "<group>"; };
+		BC830EE63A58FE9000000000 /* NSTextStorage+FontScaling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSTextStorage+FontScaling.h"; path = "react/headers/React/NSTextStorage+FontScaling.h"; sourceTree = "<group>"; };
+		BC830EE63A872BE900000000 /* FBReactNativeSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBReactNativeSpec.h; path = react/headers/React/FBReactNativeSpec.h; sourceTree = "<group>"; };
+		BC830EE63A92458A00000000 /* RCTAlertManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAlertManager.h; path = react/headers/React/RCTAlertManager.h; sourceTree = "<group>"; };
+		BC830EE63AD73C6F00000000 /* RCTAnimationDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAnimationDriver.h; path = react/headers/React/RCTAnimationDriver.h; sourceTree = "<group>"; };
+		BC830EE63B9EA3C200000000 /* JsArgumentHelpers-inl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "JsArgumentHelpers-inl.h"; path = "react/headers/cxxreact/JsArgumentHelpers-inl.h"; sourceTree = "<group>"; };
+		BC830EE63BEB3D1200000000 /* RCTFPSGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFPSGraph.h; path = react/headers/Profiler/RCTFPSGraph.h; sourceTree = "<group>"; };
+		BC830EE63C34E79D00000000 /* RCTLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTLog.h; path = react/headers/React/RCTLog.h; sourceTree = "<group>"; };
+		BC830EE63CD68E5D00000000 /* RCTErrorInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTErrorInfo.h; path = react/headers/React/RCTErrorInfo.h; sourceTree = "<group>"; };
+		BC830EE63CDD725900000000 /* UIView+React.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+React.h"; path = "react/headers/Views/UIView+React.h"; sourceTree = "<group>"; };
+		BC830EE63D28479A00000000 /* RCTTextAttributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTextAttributes.h; path = react/headers/React/RCTTextAttributes.h; sourceTree = "<group>"; };
+		BC830EE63EC9910100000000 /* ARTSolidColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTSolidColor.h; path = react/headers/React/ARTSolidColor.h; sourceTree = "<group>"; };
+		BC830EE63ED3346B00000000 /* YGNodePrint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YGNodePrint.h; path = react/headers/yoga/YGNodePrint.h; sourceTree = "<group>"; };
+		BC830EE63EDA4E9100000000 /* RCTBridgeDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBridgeDelegate.h; path = react/headers/React/RCTBridgeDelegate.h; sourceTree = "<group>"; };
+		BC830EE63F0A3FE500000000 /* UIView+React.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+React.h"; path = "react/headers/React/UIView+React.h"; sourceTree = "<group>"; };
+		BC830EE63F70920F00000000 /* RCTPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPicker.h; path = react/headers/Views/RCTPicker.h; sourceTree = "<group>"; };
+		BC830EE64199941E00000000 /* RCTShadowView+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RCTShadowView+Internal.h"; path = "react/headers/Views/RCTShadowView+Internal.h"; sourceTree = "<group>"; };
+		BC830EE641C99ED300000000 /* RCTScrollContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTScrollContentView.h; path = react/headers/React/RCTScrollContentView.h; sourceTree = "<group>"; };
+		BC830EE6425B1C5D00000000 /* JSBundleType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSBundleType.h; path = react/headers/cxxreact/JSBundleType.h; sourceTree = "<group>"; };
+		BC830EE6428381C600000000 /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = dyn.age80y65csz1gk5df; name = main.jsbundle; path = app/main.jsbundle; sourceTree = "<group>"; };
+		BC830EE642F710F100000000 /* RCTSurfaceStage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceStage.h; path = react/headers/React/RCTSurfaceStage.h; sourceTree = "<group>"; };
+		BC830EE644754A6200000000 /* RCTLinkingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTLinkingManager.h; path = react/headers/React/RCTLinkingManager.h; sourceTree = "<group>"; };
+		BC830EE64629FFA200000000 /* log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = log.h; path = react/headers/yoga/log.h; sourceTree = "<group>"; };
+		BC830EE64632265800000000 /* RCTComponentViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTComponentViewProtocol.h; path = react/headers/Fabric/Mounting/RCTComponentViewProtocol.h; sourceTree = "<group>"; };
+		BC830EE64652687900000000 /* RCTWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTWeakProxy.h; path = react/headers/React/RCTWeakProxy.h; sourceTree = "<group>"; };
+		BC830EE64659AFBC00000000 /* RCTComponentViewRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTComponentViewRegistry.h; path = react/headers/React/RCTComponentViewRegistry.h; sourceTree = "<group>"; };
+		BC830EE64676942500000000 /* RCTImageResponseDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageResponseDelegate.h; path = react/headers/React/RCTImageResponseDelegate.h; sourceTree = "<group>"; };
+		BC830EE6470BF1FE00000000 /* RCTModalHostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTModalHostViewController.h; path = react/headers/Views/RCTModalHostViewController.h; sourceTree = "<group>"; };
+		BC830EE64712D4C100000000 /* RCTLayoutAnimationGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTLayoutAnimationGroup.h; path = react/headers/Modules/RCTLayoutAnimationGroup.h; sourceTree = "<group>"; };
+		BC830EE6479E1A4100000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = app/Info.plist; sourceTree = "<group>"; };
+		BC830EE64980D9FD00000000 /* RCTLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTLayout.h; path = react/headers/Views/RCTLayout.h; sourceTree = "<group>"; };
+		BC830EE649DC96F300000000 /* RCTLayoutAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTLayoutAnimation.h; path = react/headers/Modules/RCTLayoutAnimation.h; sourceTree = "<group>"; };
+		BC830EE64A22E10E00000000 /* RCTInputAccessoryShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTInputAccessoryShadowView.h; path = react/headers/React/RCTInputAccessoryShadowView.h; sourceTree = "<group>"; };
+		BC830EE64A31160800000000 /* RCTRootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRootView.h; path = react/headers/React/RCTRootView.h; sourceTree = "<group>"; };
+		BC830EE64C32B48200000000 /* RCTURLRequestDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTURLRequestDelegate.h; path = react/headers/React/RCTURLRequestDelegate.h; sourceTree = "<group>"; };
+		BC830EE64C359C5200000000 /* RCTDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDatePicker.h; path = react/headers/Views/RCTDatePicker.h; sourceTree = "<group>"; };
+		BC830EE64D5752AA00000000 /* RCTMultiplicationAnimatedNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMultiplicationAnimatedNode.h; path = react/headers/React/RCTMultiplicationAnimatedNode.h; sourceTree = "<group>"; };
+		BC830EE64D6F549700000000 /* RCTURLRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTURLRequestHandler.h; path = react/headers/React/RCTURLRequestHandler.h; sourceTree = "<group>"; };
+		BC830EE64D73A3E400000000 /* RCTBlobCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBlobCollector.h; path = react/headers/React/RCTBlobCollector.h; sourceTree = "<group>"; };
+		BC830EE64D878B9300000000 /* RCTMaskedViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMaskedViewManager.h; path = react/headers/React/RCTMaskedViewManager.h; sourceTree = "<group>"; };
+		BC830EE64E7C7DCF00000000 /* RCTImageLoaderProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageLoaderProtocol.h; path = react/headers/React/RCTImageLoaderProtocol.h; sourceTree = "<group>"; };
+		BC830EE64E8615CA00000000 /* JSBigString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSBigString.h; path = react/headers/cxxreact/JSBigString.h; sourceTree = "<group>"; };
+		BC830EE64FA4EE7800000000 /* RCTSurfacePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfacePresenter.h; path = react/headers/Fabric/RCTSurfacePresenter.h; sourceTree = "<group>"; };
+		BC830EE650838AA500000000 /* decorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = decorator.h; path = react/headers/jsi/decorator.h; sourceTree = "<group>"; };
+		BC830EE651E273CF00000000 /* RCTComponentData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTComponentData.h; path = react/headers/React/RCTComponentData.h; sourceTree = "<group>"; };
+		BC830EE65362863600000000 /* RCTSurfacePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfacePresenter.h; path = react/headers/React/RCTSurfacePresenter.h; sourceTree = "<group>"; };
+		BC830EE65425E09A00000000 /* RCTParagraphComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTParagraphComponentView.h; path = react/headers/Fabric/Mounting/ComponentViews/Text/RCTParagraphComponentView.h; sourceTree = "<group>"; };
+		BC830EE6544352D200000000 /* RCTViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTViewManager.h; path = react/headers/Views/RCTViewManager.h; sourceTree = "<group>"; };
+		BC830EE654FB049700000000 /* MessageQueueThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MessageQueueThread.h; path = react/headers/cxxreact/MessageQueueThread.h; sourceTree = "<group>"; };
+		BC830EE655FADC8300000000 /* RCTFrameUpdate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFrameUpdate.h; path = react/headers/React/RCTFrameUpdate.h; sourceTree = "<group>"; };
+		BC830EE65615AD2600000000 /* ARTNodeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTNodeManager.h; path = react/headers/React/ARTNodeManager.h; sourceTree = "<group>"; };
+		BC830EE65696121700000000 /* RCTPackagerConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPackagerConnection.h; path = react/headers/React/RCTPackagerConnection.h; sourceTree = "<group>"; };
+		BC830EE656EA97F600000000 /* RCTSliderComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSliderComponentView.h; path = react/headers/React/RCTSliderComponentView.h; sourceTree = "<group>"; };
+		BC830EE656EBA09E00000000 /* RCTAsyncLocalStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAsyncLocalStorage.h; path = react/headers/Modules/RCTAsyncLocalStorage.h; sourceTree = "<group>"; };
+		BC830EE657E023C100000000 /* RCTSurfacePresenterStub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfacePresenterStub.h; path = react/headers/React/RCTSurfacePresenterStub.h; sourceTree = "<group>"; };
+		BC830EE657F1946300000000 /* RCTActivityIndicatorViewComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTActivityIndicatorViewComponentView.h; path = react/headers/Fabric/Mounting/ComponentViews/ActivityIndicator/RCTActivityIndicatorViewComponentView.h; sourceTree = "<group>"; };
+		BC830EE6592ACE3400000000 /* RCTFabricModalHostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFabricModalHostViewController.h; path = react/headers/React/RCTFabricModalHostViewController.h; sourceTree = "<group>"; };
+		BC830EE6597758A700000000 /* DispatchMessageQueueThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DispatchMessageQueueThread.h; path = react/headers/React/DispatchMessageQueueThread.h; sourceTree = "<group>"; };
+		BC830EE6598699D100000000 /* NativeToJsBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NativeToJsBridge.h; path = react/headers/cxxreact/NativeToJsBridge.h; sourceTree = "<group>"; };
+		BC830EE65A83D24800000000 /* RCTAccessibilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAccessibilityManager.h; path = react/headers/React/RCTAccessibilityManager.h; sourceTree = "<group>"; };
+		BC830EE65A86FC3F00000000 /* RCTPlatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPlatform.h; path = react/headers/React/RCTPlatform.h; sourceTree = "<group>"; };
+		BC830EE65B465ACB00000000 /* RCTPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPicker.h; path = react/headers/React/RCTPicker.h; sourceTree = "<group>"; };
+		BC830EE65B4D811B00000000 /* RCTDeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDeviceInfo.h; path = react/headers/React/RCTDeviceInfo.h; sourceTree = "<group>"; };
+		BC830EE65B68D4FD00000000 /* RCTFabricModalHostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFabricModalHostViewController.h; path = react/headers/Fabric/Mounting/ComponentViews/Modal/RCTFabricModalHostViewController.h; sourceTree = "<group>"; };
+		BC830EE65B7DCA0200000000 /* RCTConversions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTConversions.h; path = react/headers/Fabric/RCTConversions.h; sourceTree = "<group>"; };
+		BC830EE65BA19F6100000000 /* RCTSwitchComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSwitchComponentView.h; path = react/headers/Fabric/Mounting/ComponentViews/Switch/RCTSwitchComponentView.h; sourceTree = "<group>"; };
+		BC830EE65BDB7EF100000000 /* RCTImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageCache.h; path = react/headers/React/RCTImageCache.h; sourceTree = "<group>"; };
+		BC830EE65D07DAA100000000 /* JSCExecutorFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSCExecutorFactory.h; path = react/headers/CxxBridge/JSCExecutorFactory.h; sourceTree = "<group>"; };
+		BC830EE65D189CF200000000 /* RCTSurfaceTouchHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceTouchHandler.h; path = react/headers/React/RCTSurfaceTouchHandler.h; sourceTree = "<group>"; };
+		BC830EE65D7AD3D900000000 /* RCTImageSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageSource.h; path = react/headers/React/RCTImageSource.h; sourceTree = "<group>"; };
+		BC830EE65D936F6900000000 /* RCTDeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDeviceInfo.h; path = react/headers/Modules/RCTDeviceInfo.h; sourceTree = "<group>"; };
+		BC830EE65DAEB3C500000000 /* RCTCxxUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTCxxUtils.h; path = react/headers/CxxModule/RCTCxxUtils.h; sourceTree = "<group>"; };
+		BC830EE65DE6F81F00000000 /* RCTAssert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAssert.h; path = react/headers/React/RCTAssert.h; sourceTree = "<group>"; };
+		BC830EE65F32E5F500000000 /* RCTRootShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRootShadowView.h; path = react/headers/Views/RCTRootShadowView.h; sourceTree = "<group>"; };
+		BC830EE66042B50200000000 /* RCTFabricSurfaceHostingProxyRootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFabricSurfaceHostingProxyRootView.h; path = react/headers/React/RCTFabricSurfaceHostingProxyRootView.h; sourceTree = "<group>"; };
+		BC830EE660D21C7900000000 /* RCTInputAccessoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTInputAccessoryView.h; path = react/headers/React/RCTInputAccessoryView.h; sourceTree = "<group>"; };
+		BC830EE660DB6C9F00000000 /* RCTInspectorDevServerHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTInspectorDevServerHelper.h; path = react/headers/React/RCTInspectorDevServerHelper.h; sourceTree = "<group>"; };
+		BC830EE660F2F7B000000000 /* RCTRequired.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRequired.h; path = react/headers/React/RCTRequired.h; sourceTree = "<group>"; };
+		BC830EE661025F3000000000 /* YGEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YGEnums.h; path = react/headers/yoga/YGEnums.h; sourceTree = "<group>"; };
+		BC830EE66116BE0700000000 /* RCTModalHostView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTModalHostView.h; path = react/headers/Views/RCTModalHostView.h; sourceTree = "<group>"; };
+		BC830EE66201619100000000 /* RCTCxxUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTCxxUtils.h; path = react/headers/React/RCTCxxUtils.h; sourceTree = "<group>"; };
+		BC830EE662880ED500000000 /* RCTSurfaceBackedComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceBackedComponent.h; path = react/headers/React/RCTSurfaceBackedComponent.h; sourceTree = "<group>"; };
+		BC830EE6634C3E8A00000000 /* RCTComponentViewFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTComponentViewFactory.h; path = react/headers/React/RCTComponentViewFactory.h; sourceTree = "<group>"; };
+		BC830EE663DEAC1100000000 /* JSIndexedRAMBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSIndexedRAMBundle.h; path = react/headers/cxxreact/JSIndexedRAMBundle.h; sourceTree = "<group>"; };
+		BC830EE664559D6200000000 /* RCTSafeAreaShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSafeAreaShadowView.h; path = react/headers/Views/SafeAreaView/RCTSafeAreaShadowView.h; sourceTree = "<group>"; };
+		BC830EE664C7050800000000 /* RCTStatusBarManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTStatusBarManager.h; path = react/headers/Modules/RCTStatusBarManager.h; sourceTree = "<group>"; };
+		BC830EE66508F74800000000 /* RCTUnimplementedNativeComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTUnimplementedNativeComponentView.h; path = react/headers/Fabric/Mounting/ComponentViews/UnimplementedComponent/RCTUnimplementedNativeComponentView.h; sourceTree = "<group>"; };
+		BC830EE6669BC25D00000000 /* RCTProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTProfile.h; path = react/headers/React/RCTProfile.h; sourceTree = "<group>"; };
+		BC830EE666A97F2300000000 /* RCTEventEmitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTEventEmitter.h; path = react/headers/Modules/RCTEventEmitter.h; sourceTree = "<group>"; };
+		BC830EE666C1121B00000000 /* RCTKeyboardObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTKeyboardObserver.h; path = react/headers/Modules/RCTKeyboardObserver.h; sourceTree = "<group>"; };
+		BC830EE667544BA800000000 /* RCTSubtractionAnimatedNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSubtractionAnimatedNode.h; path = react/headers/React/RCTSubtractionAnimatedNode.h; sourceTree = "<group>"; };
+		BC830EE667C718BC00000000 /* RCTModuleMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTModuleMethod.h; path = react/headers/React/RCTModuleMethod.h; sourceTree = "<group>"; };
+		BC830EE667F6453E00000000 /* RCTSwitchManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSwitchManager.h; path = react/headers/Views/RCTSwitchManager.h; sourceTree = "<group>"; };
+		BC830EE6688728BC00000000 /* RCTImageEditingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageEditingManager.h; path = react/headers/CoreModules/RCTImageEditingManager.h; sourceTree = "<group>"; };
+		BC830EE668CE674C00000000 /* RCTPropsAnimatedNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPropsAnimatedNode.h; path = react/headers/React/RCTPropsAnimatedNode.h; sourceTree = "<group>"; };
+		BC830EE66980300900000000 /* RCTUIManagerObserverCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTUIManagerObserverCoordinator.h; path = react/headers/React/RCTUIManagerObserverCoordinator.h; sourceTree = "<group>"; };
+		BC830EE66A3AA66800000000 /* RCTDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDatePicker.h; path = react/headers/React/RCTDatePicker.h; sourceTree = "<group>"; };
+		BC830EE66A425C8B00000000 /* RCTConvert+Transform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RCTConvert+Transform.h"; path = "react/headers/Views/RCTConvert+Transform.h"; sourceTree = "<group>"; };
+		BC830EE66AECB78A00000000 /* RCTTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTextView.h; path = react/headers/React/RCTTextView.h; sourceTree = "<group>"; };
+		BC830EE66B12C23E00000000 /* UIView+ComponentViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+ComponentViewProtocol.h"; path = "react/headers/Fabric/Mounting/UIView+ComponentViewProtocol.h"; sourceTree = "<group>"; };
+		BC830EE66B19862800000000 /* RCTSurfaceRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceRegistry.h; path = react/headers/Fabric/RCTSurfaceRegistry.h; sourceTree = "<group>"; };
+		BC830EE66BDA0B6100000000 /* RCTEventEmitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTEventEmitter.h; path = react/headers/React/RCTEventEmitter.h; sourceTree = "<group>"; };
+		BC830EE66BE8C28700000000 /* RCTRedBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRedBox.h; path = react/headers/Modules/RCTRedBox.h; sourceTree = "<group>"; };
+		BC830EE66C0233AA00000000 /* RCTPackagerClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPackagerClient.h; path = react/headers/React/RCTPackagerClient.h; sourceTree = "<group>"; };
+		BC830EE66C304F3800000000 /* RCTWrapperShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTWrapperShadowView.h; path = react/headers/React/RCTWrapperShadowView.h; sourceTree = "<group>"; };
+		BC830EE66C46F94800000000 /* RCTActivityIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTActivityIndicatorView.h; path = react/headers/Views/RCTActivityIndicatorView.h; sourceTree = "<group>"; };
+		BC830EE66CB88F2D00000000 /* RCTLayoutAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTLayoutAnimation.h; path = react/headers/React/RCTLayoutAnimation.h; sourceTree = "<group>"; };
+		BC830EE66CD94BCE00000000 /* RCTBridge+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RCTBridge+Private.h"; path = "react/headers/React/RCTBridge+Private.h"; sourceTree = "<group>"; };
+		BC830EE66D02302700000000 /* RCTRootContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRootContentView.h; path = react/headers/React/RCTRootContentView.h; sourceTree = "<group>"; };
+		BC830EE66F06F46C00000000 /* RCTPlatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPlatform.h; path = react/headers/CoreModules/RCTPlatform.h; sourceTree = "<group>"; };
+		BC830EE66F21370D00000000 /* RCTAdditionAnimatedNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAdditionAnimatedNode.h; path = react/headers/React/RCTAdditionAnimatedNode.h; sourceTree = "<group>"; };
+		BC830EE6700605C200000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = app/BUILD; sourceTree = "<group>"; };
+		BC830EE6700EC28900000000 /* RCTBaseTextInputViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBaseTextInputViewManager.h; path = react/headers/React/RCTBaseTextInputViewManager.h; sourceTree = "<group>"; };
+		BC830EE670ED326200000000 /* RCTFPSGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFPSGraph.h; path = react/headers/React/RCTFPSGraph.h; sourceTree = "<group>"; };
+		BC830EE670F9B9B800000000 /* RCTSegmentedControlManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSegmentedControlManager.h; path = react/headers/React/RCTSegmentedControlManager.h; sourceTree = "<group>"; };
+		BC830EE6710FCCA400000000 /* _idx_SwiftLib_5B63E32C_ios_min10.0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = _idx_SwiftLib_5B63E32C_ios_min10.0.framework; path = _idx_SwiftLib_5B63E32C_ios_min10.0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC830EE67179E51700000000 /* ARTRadialGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTRadialGradient.h; path = react/headers/React/ARTRadialGradient.h; sourceTree = "<group>"; };
+		BC830EE67186625000000000 /* RCTSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSlider.h; path = react/headers/React/RCTSlider.h; sourceTree = "<group>"; };
+		BC830EE671AF86D300000000 /* RCTTrackingAnimatedNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTrackingAnimatedNode.h; path = react/headers/React/RCTTrackingAnimatedNode.h; sourceTree = "<group>"; };
+		BC830EE671FD154100000000 /* YGLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YGLayout.h; path = react/headers/yoga/YGLayout.h; sourceTree = "<group>"; };
+		BC830EE6722DB81400000000 /* RCTEventAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTEventAnimation.h; path = react/headers/React/RCTEventAnimation.h; sourceTree = "<group>"; };
+		BC830EE67611D67900000000 /* RCTI18nManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTI18nManager.h; path = react/headers/Modules/RCTI18nManager.h; sourceTree = "<group>"; };
+		BC830EE67662D2AD00000000 /* RCTAnimationType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAnimationType.h; path = react/headers/Views/RCTAnimationType.h; sourceTree = "<group>"; };
+		BC830EE67668828200000000 /* RCTMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMacros.h; path = react/headers/Profiler/RCTMacros.h; sourceTree = "<group>"; };
+		BC830EE67676DBEC00000000 /* RCTCxxBridgeDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTCxxBridgeDelegate.h; path = react/headers/React/RCTCxxBridgeDelegate.h; sourceTree = "<group>"; };
+		BC830EE6769CFEC800000000 /* ARTGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTGroup.h; path = react/headers/React/ARTGroup.h; sourceTree = "<group>"; };
+		BC830EE676B165E500000000 /* RCTModalHostViewComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTModalHostViewComponentView.h; path = react/headers/React/RCTModalHostViewComponentView.h; sourceTree = "<group>"; };
+		BC830EE67749337200000000 /* ARTShapeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTShapeManager.h; path = react/headers/React/ARTShapeManager.h; sourceTree = "<group>"; };
+		BC830EE6787DDD0500000000 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = app/ViewController.swift; sourceTree = "<group>"; };
+		BC830EE679D0267100000000 /* RCTRootViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRootViewDelegate.h; path = react/headers/React/RCTRootViewDelegate.h; sourceTree = "<group>"; };
+		BC830EE67BB7AEAF00000000 /* RCTAppState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAppState.h; path = react/headers/React/RCTAppState.h; sourceTree = "<group>"; };
+		BC830EE67CBFD48A00000000 /* ARTRenderable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTRenderable.h; path = react/headers/React/ARTRenderable.h; sourceTree = "<group>"; };
+		BC830EE67D785F1000000000 /* RCTConversions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTConversions.h; path = react/headers/React/RCTConversions.h; sourceTree = "<group>"; };
+		BC830EE67DB578C200000000 /* RCTGIFImageDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTGIFImageDecoder.h; path = react/headers/React/RCTGIFImageDecoder.h; sourceTree = "<group>"; };
+		BC830EE67E242F5300000000 /* RCTGenericDelegateSplitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTGenericDelegateSplitter.h; path = react/headers/Fabric/Utils/RCTGenericDelegateSplitter.h; sourceTree = "<group>"; };
+		BC830EE67E35EA4E00000000 /* RCTSegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSegmentedControl.h; path = react/headers/React/RCTSegmentedControl.h; sourceTree = "<group>"; };
+		BC830EE67F3F633300000000 /* RCTJSStackFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTJSStackFrame.h; path = react/headers/React/RCTJSStackFrame.h; sourceTree = "<group>"; };
+		BC830EE67FA3688600000000 /* RCTFollyConvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFollyConvert.h; path = react/headers/CxxUtils/RCTFollyConvert.h; sourceTree = "<group>"; };
+		BC830EE6802BCF1700000000 /* RCTScrollViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTScrollViewManager.h; path = react/headers/Views/ScrollView/RCTScrollViewManager.h; sourceTree = "<group>"; };
+		BC830EE6808EE0DC00000000 /* ARTSurfaceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTSurfaceView.h; path = react/headers/React/ARTSurfaceView.h; sourceTree = "<group>"; };
+		BC830EE6811FE05A00000000 /* RCTUIUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTUIUtils.h; path = react/headers/React/RCTUIUtils.h; sourceTree = "<group>"; };
+		BC830EE68191F04C00000000 /* RCTConvert+CoreLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RCTConvert+CoreLocation.h"; path = "react/headers/Views/RCTConvert+CoreLocation.h"; sourceTree = "<group>"; };
+		BC830EE681C107D100000000 /* RCTSurfaceRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceRegistry.h; path = react/headers/React/RCTSurfaceRegistry.h; sourceTree = "<group>"; };
+		BC830EE681CFAFE100000000 /* MainRunLoopEventBeat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainRunLoopEventBeat.h; path = react/headers/React/MainRunLoopEventBeat.h; sourceTree = "<group>"; };
+		BC830EE68287E39900000000 /* RCTTVView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTVView.h; path = react/headers/React/RCTTVView.h; sourceTree = "<group>"; };
+		BC830EE682B71D6D00000000 /* RCTPhotoLibraryImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPhotoLibraryImageLoader.h; path = react/headers/React/RCTPhotoLibraryImageLoader.h; sourceTree = "<group>"; };
+		BC830EE68330F64F00000000 /* RCTSurfaceRootShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceRootShadowView.h; path = react/headers/React/RCTSurfaceRootShadowView.h; sourceTree = "<group>"; };
+		BC830EE683A1D14500000000 /* RCTUIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTUIManager.h; path = react/headers/Modules/RCTUIManager.h; sourceTree = "<group>"; };
+		BC830EE683D5805E00000000 /* RCTSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSwitch.h; path = react/headers/React/RCTSwitch.h; sourceTree = "<group>"; };
+		BC830EE683D9A21800000000 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = react/headers/yoga/Utils.h; sourceTree = "<group>"; };
+		BC830EE68448EE9200000000 /* RCTI18nUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTI18nUtil.h; path = react/headers/Modules/RCTI18nUtil.h; sourceTree = "<group>"; };
+		BC830EE684530B4000000000 /* RCTModalHostView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTModalHostView.h; path = react/headers/React/RCTModalHostView.h; sourceTree = "<group>"; };
+		BC830EE6854ED65B00000000 /* RCTImageShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageShadowView.h; path = react/headers/React/RCTImageShadowView.h; sourceTree = "<group>"; };
+		BC830EE686614ECC00000000 /* SystraceSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SystraceSection.h; path = react/headers/cxxreact/SystraceSection.h; sourceTree = "<group>"; };
+		BC830EE6866553D100000000 /* JSINativeModules.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSINativeModules.h; path = react/headers/jsireact/JSINativeModules.h; sourceTree = "<group>"; };
+		BC830EE686D307C300000000 /* ARTBrush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTBrush.h; path = react/headers/React/ARTBrush.h; sourceTree = "<group>"; };
+		BC830EE6871CA08200000000 /* RCTDiffClampAnimatedNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDiffClampAnimatedNode.h; path = react/headers/React/RCTDiffClampAnimatedNode.h; sourceTree = "<group>"; };
+		BC830EE68731FB9A00000000 /* RCTCxxModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTCxxModule.h; path = react/headers/CxxModule/RCTCxxModule.h; sourceTree = "<group>"; };
+		BC830EE687EC0D7B00000000 /* RCTNullability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTNullability.h; path = react/headers/React/RCTNullability.h; sourceTree = "<group>"; };
+		BC830EE6887DE7A900000000 /* CxxNativeModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CxxNativeModule.h; path = react/headers/cxxreact/CxxNativeModule.h; sourceTree = "<group>"; };
+		BC830EE6888E5BF900000000 /* RCTEnhancedScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTEnhancedScrollView.h; path = react/headers/React/RCTEnhancedScrollView.h; sourceTree = "<group>"; };
+		BC830EE689AB2A1400000000 /* RCTDevSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDevSettings.h; path = react/headers/Modules/RCTDevSettings.h; sourceTree = "<group>"; };
+		BC830EE689B7368800000000 /* RCTSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSlider.h; path = react/headers/Views/RCTSlider.h; sourceTree = "<group>"; };
+		BC830EE68A4B49D300000000 /* RCTSurfaceView+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RCTSurfaceView+Internal.h"; path = "react/headers/React/RCTSurfaceView+Internal.h"; sourceTree = "<group>"; };
+		BC830EE68B65FE1100000000 /* RCTConvert+ART.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RCTConvert+ART.h"; path = "react/headers/React/RCTConvert+ART.h"; sourceTree = "<group>"; };
+		BC830EE68BEF4ECB00000000 /* RCTMultilineTextInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMultilineTextInputView.h; path = react/headers/React/RCTMultilineTextInputView.h; sourceTree = "<group>"; };
+		BC830EE68C95677D00000000 /* RCTPerformanceLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPerformanceLogger.h; path = react/headers/React/RCTPerformanceLogger.h; sourceTree = "<group>"; };
+		BC830EE68CB3B3EE00000000 /* RCTVirtualTextViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTVirtualTextViewManager.h; path = react/headers/React/RCTVirtualTextViewManager.h; sourceTree = "<group>"; };
+		BC830EE68D21B7D900000000 /* RCTMultipartStreamReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMultipartStreamReader.h; path = react/headers/React/RCTMultipartStreamReader.h; sourceTree = "<group>"; };
+		BC830EE68D39F5FA00000000 /* RCTTextViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTextViewManager.h; path = react/headers/React/RCTTextViewManager.h; sourceTree = "<group>"; };
+		BC830EE68D5C18A300000000 /* JSModulesUnbundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSModulesUnbundle.h; path = react/headers/cxxreact/JSModulesUnbundle.h; sourceTree = "<group>"; };
+		BC830EE68D6E175800000000 /* lib_idx_ObjcLib_09D04FD6_ios_min10.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = lib_idx_ObjcLib_09D04FD6_ios_min10.0.a; path = lib_idx_ObjcLib_09D04FD6_ios_min10.0.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC830EE68E72DA7B00000000 /* RCTBlobManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBlobManager.h; path = react/headers/React/RCTBlobManager.h; sourceTree = "<group>"; };
+		BC830EE69027E9DD00000000 /* RCTValueAnimatedNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTValueAnimatedNode.h; path = react/headers/React/RCTValueAnimatedNode.h; sourceTree = "<group>"; };
+		BC830EE69094DA7D00000000 /* RCTJavaScriptLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTJavaScriptLoader.h; path = react/headers/React/RCTJavaScriptLoader.h; sourceTree = "<group>"; };
+		BC830EE690BEBD2C00000000 /* RCTBridgeModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBridgeModule.h; path = react/headers/React/RCTBridgeModule.h; sourceTree = "<group>"; };
+		BC830EE691A4271400000000 /* RCTSafeAreaShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSafeAreaShadowView.h; path = react/headers/React/RCTSafeAreaShadowView.h; sourceTree = "<group>"; };
+		BC830EE691C653FD00000000 /* instrumentation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = instrumentation.h; path = react/headers/jsi/instrumentation.h; sourceTree = "<group>"; };
+		BC830EE691E5F67400000000 /* RCTConvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTConvert.h; path = react/headers/React/RCTConvert.h; sourceTree = "<group>"; };
+		BC830EE69233104900000000 /* RCTScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTScrollView.h; path = react/headers/React/RCTScrollView.h; sourceTree = "<group>"; };
+		BC830EE69252B76A00000000 /* RCTFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFont.h; path = react/headers/React/RCTFont.h; sourceTree = "<group>"; };
+		BC830EE69257528F00000000 /* RCTFileRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFileRequestHandler.h; path = react/headers/React/RCTFileRequestHandler.h; sourceTree = "<group>"; };
+		BC830EE6925E869B00000000 /* RCTImageStoreManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageStoreManager.h; path = react/headers/React/RCTImageStoreManager.h; sourceTree = "<group>"; };
+		BC830EE69301B7B100000000 /* RCTSurfaceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceView.h; path = react/headers/React/RCTSurfaceView.h; sourceTree = "<group>"; };
+		BC830EE693D4BF1500000000 /* RCTObjcExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTObjcExecutor.h; path = react/headers/CxxBridge/RCTObjcExecutor.h; sourceTree = "<group>"; };
+		BC830EE694CED19200000000 /* RCTJavaScriptExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTJavaScriptExecutor.h; path = react/headers/React/RCTJavaScriptExecutor.h; sourceTree = "<group>"; };
+		BC830EE694D62F3800000000 /* MethodCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MethodCall.h; path = react/headers/cxxreact/MethodCall.h; sourceTree = "<group>"; };
+		BC830EE694E2981C00000000 /* ARTShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTShape.h; path = react/headers/React/ARTShape.h; sourceTree = "<group>"; };
+		BC830EE695467A8F00000000 /* RCTInputAccessoryViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTInputAccessoryViewManager.h; path = react/headers/React/RCTInputAccessoryViewManager.h; sourceTree = "<group>"; };
+		BC830EE6966CB87500000000 /* RCTNetInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTNetInfo.h; path = react/headers/React/RCTNetInfo.h; sourceTree = "<group>"; };
+		BC830EE697018C1700000000 /* jsilib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jsilib.h; path = react/headers/jsi/jsilib.h; sourceTree = "<group>"; };
+		BC830EE697708BB900000000 /* RCTBaseTextShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBaseTextShadowView.h; path = react/headers/React/RCTBaseTextShadowView.h; sourceTree = "<group>"; };
+		BC830EE697AC045400000000 /* RCTComponentViewRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTComponentViewRegistry.h; path = react/headers/Fabric/Mounting/RCTComponentViewRegistry.h; sourceTree = "<group>"; };
+		BC830EE69879686200000000 /* RCTProgressViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTProgressViewManager.h; path = react/headers/React/RCTProgressViewManager.h; sourceTree = "<group>"; };
+		BC830EE69909F9C300000000 /* RAMBundleRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RAMBundleRegistry.h; path = react/headers/cxxreact/RAMBundleRegistry.h; sourceTree = "<group>"; };
+		BC830EE69A4D878300000000 /* RCTSurfaceRootShadowViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceRootShadowViewDelegate.h; path = react/headers/React/RCTSurfaceRootShadowViewDelegate.h; sourceTree = "<group>"; };
+		BC830EE69A7B767700000000 /* RCTNativeModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTNativeModule.h; path = react/headers/CxxModule/RCTNativeModule.h; sourceTree = "<group>"; };
+		BC830EE69AC2198F00000000 /* RCTSurfaceTouchHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceTouchHandler.h; path = react/headers/Fabric/RCTSurfaceTouchHandler.h; sourceTree = "<group>"; };
+		BC830EE69AD779F400000000 /* RCTUIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTUIManager.h; path = react/headers/React/RCTUIManager.h; sourceTree = "<group>"; };
+		BC830EE69B1D893000000000 /* RCTSurfaceHostingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceHostingView.h; path = react/headers/React/RCTSurfaceHostingView.h; sourceTree = "<group>"; };
+		BC830EE69BE0BB7B00000000 /* RCTCxxMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTCxxMethod.h; path = react/headers/CxxModule/RCTCxxMethod.h; sourceTree = "<group>"; };
+		BC830EE69BFE4D5D00000000 /* RCTSafeAreaViewLocalData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSafeAreaViewLocalData.h; path = react/headers/Views/SafeAreaView/RCTSafeAreaViewLocalData.h; sourceTree = "<group>"; };
+		BC830EE69C14176600000000 /* RCTActionSheetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTActionSheetManager.h; path = react/headers/React/RCTActionSheetManager.h; sourceTree = "<group>"; };
+		BC830EE69C2168BD00000000 /* RCTClipboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTClipboard.h; path = react/headers/React/RCTClipboard.h; sourceTree = "<group>"; };
+		BC830EE69C6E85DC00000000 /* Bitfield.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Bitfield.h; path = react/headers/yoga/Bitfield.h; sourceTree = "<group>"; };
+		BC830EE69C71D29B00000000 /* RCTSwitchManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSwitchManager.h; path = react/headers/React/RCTSwitchManager.h; sourceTree = "<group>"; };
+		BC830EE69D53645D00000000 /* RCTLayoutAnimationGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTLayoutAnimationGroup.h; path = react/headers/React/RCTLayoutAnimationGroup.h; sourceTree = "<group>"; };
+		BC830EE69D633D3F00000000 /* RCTMountingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMountingManager.h; path = react/headers/Fabric/Mounting/RCTMountingManager.h; sourceTree = "<group>"; };
+		BC830EE69E84042000000000 /* YGMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YGMacros.h; path = react/headers/yoga/YGMacros.h; sourceTree = "<group>"; };
+		BC830EE69EAB389700000000 /* RCTSafeAreaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSafeAreaView.h; path = react/headers/Views/SafeAreaView/RCTSafeAreaView.h; sourceTree = "<group>"; };
+		BC830EE69FA4BCAA00000000 /* RCTNetworkTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTNetworkTask.h; path = react/headers/React/RCTNetworkTask.h; sourceTree = "<group>"; };
+		BC830EE69FB0DF9100000000 /* RCTImageComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageComponentView.h; path = react/headers/React/RCTImageComponentView.h; sourceTree = "<group>"; };
+		BC830EE6A007973E00000000 /* RCTExceptionsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTExceptionsManager.h; path = react/headers/CoreModules/RCTExceptionsManager.h; sourceTree = "<group>"; };
+		BC830EE6A05C3F2900000000 /* RCTSRWebSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSRWebSocket.h; path = react/headers/React/RCTSRWebSocket.h; sourceTree = "<group>"; };
+		BC830EE6A0DFDB8C00000000 /* NSDataBigString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSDataBigString.h; path = react/headers/React/NSDataBigString.h; sourceTree = "<group>"; };
+		BC830EE6A1D141E300000000 /* RCTSurfaceHostingComponentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceHostingComponentController.h; path = react/headers/React/RCTSurfaceHostingComponentController.h; sourceTree = "<group>"; };
+		BC830EE6A2ABFB9700000000 /* RCTSurfaceHostingComponentState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceHostingComponentState.h; path = react/headers/React/RCTSurfaceHostingComponentState.h; sourceTree = "<group>"; };
+		BC830EE6A2F90A3200000000 /* RCTLocalAssetImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTLocalAssetImageLoader.h; path = react/headers/React/RCTLocalAssetImageLoader.h; sourceTree = "<group>"; };
+		BC830EE6A397E9B800000000 /* ARTSurfaceViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTSurfaceViewManager.h; path = react/headers/React/ARTSurfaceViewManager.h; sourceTree = "<group>"; };
+		BC830EE6A3A1AFCB00000000 /* RCTInvalidating.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTInvalidating.h; path = react/headers/React/RCTInvalidating.h; sourceTree = "<group>"; };
+		BC830EE6A417ED1E00000000 /* RCTSafeAreaViewLocalData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSafeAreaViewLocalData.h; path = react/headers/React/RCTSafeAreaViewLocalData.h; sourceTree = "<group>"; };
+		BC830EE6A546F2F400000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = react/BUILD; sourceTree = "<group>"; };
+		BC830EE6A6A7F4F900000000 /* RCTComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTComponent.h; path = react/headers/React/RCTComponent.h; sourceTree = "<group>"; };
+		BC830EE6A6DF0F0C00000000 /* RCTModalHostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTModalHostViewController.h; path = react/headers/React/RCTModalHostViewController.h; sourceTree = "<group>"; };
+		BC830EE6A6EB105A00000000 /* RCTProgressViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTProgressViewManager.h; path = react/headers/Views/RCTProgressViewManager.h; sourceTree = "<group>"; };
+		BC830EE6A6EBAD2B00000000 /* RCTTextShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTextShadowView.h; path = react/headers/React/RCTTextShadowView.h; sourceTree = "<group>"; };
+		BC830EE6A6FDE6BF00000000 /* RCTDatePickerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDatePickerManager.h; path = react/headers/Views/RCTDatePickerManager.h; sourceTree = "<group>"; };
+		BC830EE6A752D76600000000 /* NativeModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NativeModule.h; path = react/headers/cxxreact/NativeModule.h; sourceTree = "<group>"; };
+		BC830EE6A77E170000000000 /* RCTSafeAreaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSafeAreaView.h; path = react/headers/React/RCTSafeAreaView.h; sourceTree = "<group>"; };
+		BC830EE6A7D90C1000000000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = app/AppDelegate.swift; sourceTree = "<group>"; };
+		BC830EE6A8135C3800000000 /* RCTRootComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRootComponentView.h; path = react/headers/React/RCTRootComponentView.h; sourceTree = "<group>"; };
+		BC830EE6A830D6A200000000 /* RCTRedBoxExtraDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRedBoxExtraDataViewController.h; path = react/headers/React/RCTRedBoxExtraDataViewController.h; sourceTree = "<group>"; };
+		BC830EE6A85431D400000000 /* RCTActivityIndicatorViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTActivityIndicatorViewManager.h; path = react/headers/Views/RCTActivityIndicatorViewManager.h; sourceTree = "<group>"; };
+		BC830EE6A8632AC500000000 /* RCTDevLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDevLoadingView.h; path = react/headers/React/RCTDevLoadingView.h; sourceTree = "<group>"; };
+		BC830EE6A8878E2C00000000 /* RCTImageComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageComponentView.h; path = react/headers/Fabric/Mounting/ComponentViews/Image/RCTImageComponentView.h; sourceTree = "<group>"; };
+		BC830EE6A8C62EC000000000 /* RCTCameraRollManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTCameraRollManager.h; path = react/headers/React/RCTCameraRollManager.h; sourceTree = "<group>"; };
+		BC830EE6A933A16D00000000 /* RCTSegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSegmentedControl.h; path = react/headers/Views/RCTSegmentedControl.h; sourceTree = "<group>"; };
+		BC830EE6A96538A200000000 /* RCTPackagerConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPackagerConnection.h; path = react/headers/DevSupport/RCTPackagerConnection.h; sourceTree = "<group>"; };
+		BC830EE6A9CA79F400000000 /* RCTGenericDelegateSplitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTGenericDelegateSplitter.h; path = react/headers/React/RCTGenericDelegateSplitter.h; sourceTree = "<group>"; };
+		BC830EE6AA0CC4FB00000000 /* RCTWrapperExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTWrapperExampleViewController.h; path = react/headers/React/RCTWrapperExampleViewController.h; sourceTree = "<group>"; };
+		BC830EE6AA2F0A7D00000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = app/Main.storyboard; sourceTree = "<group>"; };
+		BC830EE6ACC8516700000000 /* RCTWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTWrapper.h; path = react/headers/React/RCTWrapper.h; sourceTree = "<group>"; };
+		BC830EE6ACD40D3400000000 /* RCTScrollContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTScrollContentView.h; path = react/headers/Views/ScrollView/RCTScrollContentView.h; sourceTree = "<group>"; };
+		BC830EE6AD0FF8AE00000000 /* RCTRawTextShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRawTextShadowView.h; path = react/headers/React/RCTRawTextShadowView.h; sourceTree = "<group>"; };
+		BC830EE6ADED34E300000000 /* RCTSinglelineTextInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSinglelineTextInputView.h; path = react/headers/React/RCTSinglelineTextInputView.h; sourceTree = "<group>"; };
+		BC830EE6AE4214B800000000 /* RCTFabricSurface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFabricSurface.h; path = react/headers/Fabric/Surface/RCTFabricSurface.h; sourceTree = "<group>"; };
+		BC830EE6AE5F7C5200000000 /* RCTPackagerClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPackagerClient.h; path = react/headers/DevSupport/RCTPackagerClient.h; sourceTree = "<group>"; };
+		BC830EE6AEB6B4EB00000000 /* RCTNativeModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTNativeModule.h; path = react/headers/React/RCTNativeModule.h; sourceTree = "<group>"; };
+		BC830EE6AEB841E500000000 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = app/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC830EE6AF3EAF8300000000 /* RCTComponentViewFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTComponentViewFactory.h; path = react/headers/Fabric/Mounting/RCTComponentViewFactory.h; sourceTree = "<group>"; };
+		BC830EE6AFE519FC00000000 /* RCTUIUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTUIUtils.h; path = react/headers/UIUtils/RCTUIUtils.h; sourceTree = "<group>"; };
+		BC830EE6B036F18700000000 /* RCTActivityIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTActivityIndicatorView.h; path = react/headers/React/RCTActivityIndicatorView.h; sourceTree = "<group>"; };
+		BC830EE6B0AB04BF00000000 /* RCTComponentData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTComponentData.h; path = react/headers/Views/RCTComponentData.h; sourceTree = "<group>"; };
+		BC830EE6B0E8CE7700000000 /* RCTImagePickerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImagePickerManager.h; path = react/headers/React/RCTImagePickerManager.h; sourceTree = "<group>"; };
+		BC830EE6B21F7FBC00000000 /* RCTConvertHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTConvertHelpers.h; path = react/headers/React/RCTConvertHelpers.h; sourceTree = "<group>"; };
+		BC830EE6B25048FA00000000 /* RCTImageEditingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageEditingManager.h; path = react/headers/React/RCTImageEditingManager.h; sourceTree = "<group>"; };
+		BC830EE6B25B313200000000 /* RCTBundleURLProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBundleURLProvider.h; path = react/headers/React/RCTBundleURLProvider.h; sourceTree = "<group>"; };
+		BC830EE6B326002500000000 /* RCTScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTScrollView.h; path = react/headers/Views/ScrollView/RCTScrollView.h; sourceTree = "<group>"; };
+		BC830EE6B34B505900000000 /* RCTInspectorDevServerHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTInspectorDevServerHelper.h; path = react/headers/DevSupport/RCTInspectorDevServerHelper.h; sourceTree = "<group>"; };
+		BC830EE6B34D1F6600000000 /* BazelAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; name = BazelAppSwift.app; path = BazelAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC830EE6B3CB8B9800000000 /* RCTSafeAreaViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSafeAreaViewManager.h; path = react/headers/React/RCTSafeAreaViewManager.h; sourceTree = "<group>"; };
+		BC830EE6B3F7C0B700000000 /* RCTSurfaceHostingComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceHostingComponent.h; path = react/headers/React/RCTSurfaceHostingComponent.h; sourceTree = "<group>"; };
+		BC830EE6B43D021600000000 /* ARTNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTNode.h; path = react/headers/React/ARTNode.h; sourceTree = "<group>"; };
+		BC830EE6B454A1F600000000 /* ARTContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTContainer.h; path = react/headers/React/ARTContainer.h; sourceTree = "<group>"; };
+		BC830EE6B4656B9900000000 /* RCTImageUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageUtils.h; path = react/headers/React/RCTImageUtils.h; sourceTree = "<group>"; };
+		BC830EE6B467B50400000000 /* CompactValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CompactValue.h; path = react/headers/yoga/CompactValue.h; sourceTree = "<group>"; };
+		BC830EE6B51561A700000000 /* RCTSourceCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSourceCode.h; path = react/headers/Modules/RCTSourceCode.h; sourceTree = "<group>"; };
+		BC830EE6B5A1C0A200000000 /* ARTCGFloatArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTCGFloatArray.h; path = react/headers/React/ARTCGFloatArray.h; sourceTree = "<group>"; };
+		BC830EE6B7492D7700000000 /* RCTMountingManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMountingManagerDelegate.h; path = react/headers/Fabric/Mounting/RCTMountingManagerDelegate.h; sourceTree = "<group>"; };
+		BC830EE6B75B973E00000000 /* RCTFabricSurfaceHostingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFabricSurfaceHostingView.h; path = react/headers/React/RCTFabricSurfaceHostingView.h; sourceTree = "<group>"; };
+		BC830EE6B861B2B600000000 /* RCTShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTShadowView.h; path = react/headers/Views/RCTShadowView.h; sourceTree = "<group>"; };
+		BC830EE6B9378F8D00000000 /* RCTSliderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSliderManager.h; path = react/headers/Views/RCTSliderManager.h; sourceTree = "<group>"; };
+		BC830EE6B94EE1BC00000000 /* jsi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jsi.h; path = react/headers/jsi/jsi.h; sourceTree = "<group>"; };
+		BC830EE6BA74B9A600000000 /* FBLazyVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBLazyVector.h; path = react/headers/React/FBLazyVector.h; sourceTree = "<group>"; };
+		BC830EE6BA8511BC00000000 /* RCTModalHostViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTModalHostViewManager.h; path = react/headers/Views/RCTModalHostViewManager.h; sourceTree = "<group>"; };
+		BC830EE6BAD9ADF100000000 /* NSDataBigString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSDataBigString.h; path = react/headers/CxxBridge/NSDataBigString.h; sourceTree = "<group>"; };
+		BC830EE6BAF763A600000000 /* RCTShadowView+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RCTShadowView+Internal.h"; path = "react/headers/React/RCTShadowView+Internal.h"; sourceTree = "<group>"; };
+		BC830EE6BBD2DBB600000000 /* RCTTypedModuleConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTypedModuleConstants.h; path = react/headers/React/RCTTypedModuleConstants.h; sourceTree = "<group>"; };
+		BC830EE6BBF91F5100000000 /* RCTCxxConvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTCxxConvert.h; path = react/headers/React/RCTCxxConvert.h; sourceTree = "<group>"; };
+		BC830EE6BC21922B00000000 /* RCTImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageLoader.h; path = react/headers/CoreModules/RCTImageLoader.h; sourceTree = "<group>"; };
+		BC830EE6BCA32ABC00000000 /* ARTTextManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTTextManager.h; path = react/headers/React/ARTTextManager.h; sourceTree = "<group>"; };
+		BC830EE6BCFA290900000000 /* RCTMaskedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMaskedView.h; path = react/headers/Views/RCTMaskedView.h; sourceTree = "<group>"; };
+		BC830EE6BCFA3B9B00000000 /* RCTCxxMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTCxxMethod.h; path = react/headers/React/RCTCxxMethod.h; sourceTree = "<group>"; };
+		BC830EE6BF563B5100000000 /* RCTFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFont.h; path = react/headers/Views/RCTFont.h; sourceTree = "<group>"; };
+		BC830EE6C06C4E1F00000000 /* RCTBorderDrawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBorderDrawing.h; path = react/headers/Views/RCTBorderDrawing.h; sourceTree = "<group>"; };
+		BC830EE6C0A111BA00000000 /* RCTComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTComponent.h; path = react/headers/Views/RCTComponent.h; sourceTree = "<group>"; };
+		BC830EE6C1B32A1800000000 /* RCTRefreshControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRefreshControl.h; path = react/headers/React/RCTRefreshControl.h; sourceTree = "<group>"; };
+		BC830EE6C27559E300000000 /* RCTSliderComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSliderComponentView.h; path = react/headers/Fabric/Mounting/ComponentViews/Slider/RCTSliderComponentView.h; sourceTree = "<group>"; };
+		BC830EE6C2DFF03900000000 /* RCTUIImageViewAnimated.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTUIImageViewAnimated.h; path = react/headers/React/RCTUIImageViewAnimated.h; sourceTree = "<group>"; };
+		BC830EE6C3751A6600000000 /* RCTWrapperView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTWrapperView.h; path = react/headers/React/RCTWrapperView.h; sourceTree = "<group>"; };
+		BC830EE6C3991F1800000000 /* RCTInputAccessoryViewContent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTInputAccessoryViewContent.h; path = react/headers/React/RCTInputAccessoryViewContent.h; sourceTree = "<group>"; };
+		BC830EE6C3A11DEA00000000 /* RCTErrorCustomizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTErrorCustomizer.h; path = react/headers/React/RCTErrorCustomizer.h; sourceTree = "<group>"; };
+		BC830EE6C4A5E7CF00000000 /* RCTScrollViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTScrollViewManager.h; path = react/headers/React/RCTScrollViewManager.h; sourceTree = "<group>"; };
+		BC830EE6C52F6AA400000000 /* RCTPrimitives.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPrimitives.h; path = react/headers/React/RCTPrimitives.h; sourceTree = "<group>"; };
+		BC830EE6C64D69F800000000 /* RCTTransformAnimatedNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTransformAnimatedNode.h; path = react/headers/React/RCTTransformAnimatedNode.h; sourceTree = "<group>"; };
+		BC830EE6C8C06A3A00000000 /* RCTTouchEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTouchEvent.h; path = react/headers/React/RCTTouchEvent.h; sourceTree = "<group>"; };
+		BC830EE6C8EE0B5C00000000 /* UIView+ComponentViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+ComponentViewProtocol.h"; path = "react/headers/React/UIView+ComponentViewProtocol.h"; sourceTree = "<group>"; };
+		BC830EE6C9830EF600000000 /* RCTTVNavigationEventEmitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTVNavigationEventEmitter.h; path = react/headers/React/RCTTVNavigationEventEmitter.h; sourceTree = "<group>"; };
+		BC830EE6C99573B700000000 /* JSIDynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSIDynamic.h; path = react/headers/jsi/JSIDynamic.h; sourceTree = "<group>"; };
+		BC830EE6CB79754D00000000 /* RCTParserUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTParserUtils.h; path = react/headers/React/RCTParserUtils.h; sourceTree = "<group>"; };
+		BC830EE6CC01B19800000000 /* RCTAnimationType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAnimationType.h; path = react/headers/React/RCTAnimationType.h; sourceTree = "<group>"; };
+		BC830EE6CDC744F100000000 /* RCTAppState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAppState.h; path = react/headers/Modules/RCTAppState.h; sourceTree = "<group>"; };
+		BC830EE6CE1140BE00000000 /* RCTAutoInsetsProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAutoInsetsProtocol.h; path = react/headers/React/RCTAutoInsetsProtocol.h; sourceTree = "<group>"; };
+		BC830EE6CFE29B0600000000 /* RCTKeyboardObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTKeyboardObserver.h; path = react/headers/React/RCTKeyboardObserver.h; sourceTree = "<group>"; };
+		BC830EE6CFFA027000000000 /* MainRunLoopEventBeat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainRunLoopEventBeat.h; path = react/headers/Fabric/Utils/MainRunLoopEventBeat.h; sourceTree = "<group>"; };
+		BC830EE6D0735F3B00000000 /* RCTSurfaceHostingProxyRootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceHostingProxyRootView.h; path = react/headers/React/RCTSurfaceHostingProxyRootView.h; sourceTree = "<group>"; };
+		BC830EE6D0883F2B00000000 /* RCTMountingManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMountingManagerDelegate.h; path = react/headers/React/RCTMountingManagerDelegate.h; sourceTree = "<group>"; };
+		BC830EE6D0B1146600000000 /* RCTWebSocketExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTWebSocketExecutor.h; path = react/headers/React/RCTWebSocketExecutor.h; sourceTree = "<group>"; };
+		BC830EE6D0F16FEB00000000 /* RCTAlertManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAlertManager.h; path = react/headers/Modules/RCTAlertManager.h; sourceTree = "<group>"; };
+		BC830EE6D1543DBE00000000 /* RCTComponentEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTComponentEvent.h; path = react/headers/React/RCTComponentEvent.h; sourceTree = "<group>"; };
+		BC830EE6D16B669100000000 /* RCTRootShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRootShadowView.h; path = react/headers/React/RCTRootShadowView.h; sourceTree = "<group>"; };
+		BC830EE6D188656400000000 /* RCTModalManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTModalManager.h; path = react/headers/React/RCTModalManager.h; sourceTree = "<group>"; };
+		BC830EE6D1D147AE00000000 /* RCTFrameAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFrameAnimation.h; path = react/headers/React/RCTFrameAnimation.h; sourceTree = "<group>"; };
+		BC830EE6D2C2632E00000000 /* RCTProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTProfile.h; path = react/headers/Profiler/RCTProfile.h; sourceTree = "<group>"; };
+		BC830EE6D35FB20C00000000 /* RCTDevLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDevLoadingView.h; path = react/headers/DevSupport/RCTDevLoadingView.h; sourceTree = "<group>"; };
+		BC830EE6D38724FE00000000 /* RCTFollyConvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFollyConvert.h; path = react/headers/React/RCTFollyConvert.h; sourceTree = "<group>"; };
+		BC830EE6D3C4555D00000000 /* RCTClipboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTClipboard.h; path = react/headers/Modules/RCTClipboard.h; sourceTree = "<group>"; };
+		BC830EE6D45DCD4100000000 /* RCTMultipartDataTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMultipartDataTask.h; path = react/headers/React/RCTMultipartDataTask.h; sourceTree = "<group>"; };
+		BC830EE6D4DF49A600000000 /* RCTTVRemoteHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTVRemoteHandler.h; path = react/headers/React/RCTTVRemoteHandler.h; sourceTree = "<group>"; };
+		BC830EE6D502D05F00000000 /* RCTPushNotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPushNotificationManager.h; path = react/headers/React/RCTPushNotificationManager.h; sourceTree = "<group>"; };
+		BC830EE6D5CCD70800000000 /* RCTKeyCommands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTKeyCommands.h; path = react/headers/React/RCTKeyCommands.h; sourceTree = "<group>"; };
+		BC830EE6D65807C400000000 /* RCTTextTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTextTransform.h; path = react/headers/React/RCTTextTransform.h; sourceTree = "<group>"; };
+		BC830EE6D65ED95F00000000 /* RCTCxxModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTCxxModule.h; path = react/headers/React/RCTCxxModule.h; sourceTree = "<group>"; };
+		BC830EE6D6E6E84200000000 /* YGFloatOptional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YGFloatOptional.h; path = react/headers/yoga/YGFloatOptional.h; sourceTree = "<group>"; };
+		BC830EE6D76B116C00000000 /* RCTRefreshControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRefreshControl.h; path = react/headers/Views/RCTRefreshControl.h; sourceTree = "<group>"; };
+		BC830EE6D77A913300000000 /* FBLazyIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FBLazyIterator.h; path = react/headers/React/FBLazyIterator.h; sourceTree = "<group>"; };
+		BC830EE6D77D3D9300000000 /* RCTSurfaceBackedComponentState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceBackedComponentState.h; path = react/headers/React/RCTSurfaceBackedComponentState.h; sourceTree = "<group>"; };
+		BC830EE6D7C82CDE00000000 /* RCTWrapperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTWrapperViewController.h; path = react/headers/React/RCTWrapperViewController.h; sourceTree = "<group>"; };
+		BC830EE6D7D7759100000000 /* RCTRawTextViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRawTextViewManager.h; path = react/headers/React/RCTRawTextViewManager.h; sourceTree = "<group>"; };
+		BC830EE6D858D79000000000 /* RCTStyleAnimatedNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTStyleAnimatedNode.h; path = react/headers/React/RCTStyleAnimatedNode.h; sourceTree = "<group>"; };
+		BC830EE6D910C71C00000000 /* RCTViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTViewManager.h; path = react/headers/React/RCTViewManager.h; sourceTree = "<group>"; };
+		BC830EE6DA51A3D900000000 /* RCTAsyncLocalStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAsyncLocalStorage.h; path = react/headers/React/RCTAsyncLocalStorage.h; sourceTree = "<group>"; };
+		BC830EE6DA7FAA6200000000 /* RCTEnhancedScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTEnhancedScrollView.h; path = react/headers/Fabric/Mounting/ComponentViews/ScrollView/RCTEnhancedScrollView.h; sourceTree = "<group>"; };
+		BC830EE6DAAC8F4200000000 /* threadsafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = threadsafe.h; path = react/headers/jsi/threadsafe.h; sourceTree = "<group>"; };
+		BC830EE6DAB2046B00000000 /* RCTUnimplementedNativeComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTUnimplementedNativeComponentView.h; path = react/headers/React/RCTUnimplementedNativeComponentView.h; sourceTree = "<group>"; };
+		BC830EE6DAC034A000000000 /* ARTText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTText.h; path = react/headers/React/ARTText.h; sourceTree = "<group>"; };
+		BC830EE6DB84234B00000000 /* RCTTVView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTVView.h; path = react/headers/Views/RCTTVView.h; sourceTree = "<group>"; };
+		BC830EE6DB93B35900000000 /* RCTConvert+CoreLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RCTConvert+CoreLocation.h"; path = "react/headers/React/RCTConvert+CoreLocation.h"; sourceTree = "<group>"; };
+		BC830EE6DBB51E7400000000 /* RCTWrapperViewControllerHostingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTWrapperViewControllerHostingView.h; path = react/headers/React/RCTWrapperViewControllerHostingView.h; sourceTree = "<group>"; };
+		BC830EE6DCBD201700000000 /* RCTScrollContentShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTScrollContentShadowView.h; path = react/headers/React/RCTScrollContentShadowView.h; sourceTree = "<group>"; };
+		BC830EE6DD32708700000000 /* RCTScrollableProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTScrollableProtocol.h; path = react/headers/Views/ScrollView/RCTScrollableProtocol.h; sourceTree = "<group>"; };
+		BC830EE6DE4A060F00000000 /* RCTLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTLayout.h; path = react/headers/React/RCTLayout.h; sourceTree = "<group>"; };
+		BC830EE6DE4C13DE00000000 /* RCTRefreshControlManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRefreshControlManager.h; path = react/headers/React/RCTRefreshControlManager.h; sourceTree = "<group>"; };
+		BC830EE6DF081FE700000000 /* RCTModuleData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTModuleData.h; path = react/headers/React/RCTModuleData.h; sourceTree = "<group>"; };
+		BC830EE6DF28333300000000 /* RCTScrollContentViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTScrollContentViewManager.h; path = react/headers/React/RCTScrollContentViewManager.h; sourceTree = "<group>"; };
+		BC830EE6DF64B7A400000000 /* RCTInterpolationAnimatedNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTInterpolationAnimatedNode.h; path = react/headers/React/RCTInterpolationAnimatedNode.h; sourceTree = "<group>"; };
+		BC830EE6DFC4559300000000 /* RCTUITextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTUITextField.h; path = react/headers/React/RCTUITextField.h; sourceTree = "<group>"; };
+		BC830EE6E02FF78F00000000 /* RCTVirtualTextShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTVirtualTextShadowView.h; path = react/headers/React/RCTVirtualTextShadowView.h; sourceTree = "<group>"; };
+		BC830EE6E06BCE9600000000 /* RCTMultilineTextInputViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMultilineTextInputViewManager.h; path = react/headers/React/RCTMultilineTextInputViewManager.h; sourceTree = "<group>"; };
+		BC830EE6E082BEEF00000000 /* RCTView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTView.h; path = react/headers/Views/RCTView.h; sourceTree = "<group>"; };
+		BC830EE6E0DD2CEC00000000 /* RCTAnimationUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAnimationUtils.h; path = react/headers/React/RCTAnimationUtils.h; sourceTree = "<group>"; };
+		BC830EE6E0E577C300000000 /* RCTDataRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDataRequestHandler.h; path = react/headers/React/RCTDataRequestHandler.h; sourceTree = "<group>"; };
+		BC830EE6E175BA9200000000 /* RCTFabricSurface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTFabricSurface.h; path = react/headers/React/RCTFabricSurface.h; sourceTree = "<group>"; };
+		BC830EE6E1B51EE200000000 /* libObjcLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = libObjcLib.a; path = libObjcLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC830EE6E1FF14A900000000 /* RCTMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMacros.h; path = react/headers/React/RCTMacros.h; sourceTree = "<group>"; };
+		BC830EE6E20A791F00000000 /* RCTResizeMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTResizeMode.h; path = react/headers/React/RCTResizeMode.h; sourceTree = "<group>"; };
+		BC830EE6E27AC65000000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.plist; path = "tulsi-workspace/bazel-tulsi-includes/x/x/app/BazelAppSwift-intermediates/Info.plist"; sourceTree = "<group>"; };
+		BC830EE6E2EADC6500000000 /* RCTSurfacePresenterStub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfacePresenterStub.h; path = react/headers/Modules/RCTSurfacePresenterStub.h; sourceTree = "<group>"; };
+		BC830EE6E4DB3AF500000000 /* RCTTiming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTiming.h; path = react/headers/React/RCTTiming.h; sourceTree = "<group>"; };
+		BC830EE6E50F9B9C00000000 /* JSIExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSIExecutor.h; path = react/headers/jsireact/JSIExecutor.h; sourceTree = "<group>"; };
+		BC830EE6E5BA416200000000 /* CoreModulesPlugins.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CoreModulesPlugins.h; path = react/headers/CoreModules/CoreModulesPlugins.h; sourceTree = "<group>"; };
+		BC830EE6E5E1794E00000000 /* RCTBaseTextInputShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBaseTextInputShadowView.h; path = react/headers/React/RCTBaseTextInputShadowView.h; sourceTree = "<group>"; };
+		BC830EE6E82656D500000000 /* RCTImageResponseDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageResponseDelegate.h; path = react/headers/Fabric/RCTImageResponseDelegate.h; sourceTree = "<group>"; };
+		BC830EE6E82EBAF600000000 /* RCTReloadCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTReloadCommand.h; path = react/headers/React/RCTReloadCommand.h; sourceTree = "<group>"; };
+		BC830EE6E8CC255700000000 /* ARTGroupManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARTGroupManager.h; path = react/headers/React/ARTGroupManager.h; sourceTree = "<group>"; };
+		BC830EE6E8E60CF600000000 /* RCTActivityIndicatorViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTActivityIndicatorViewManager.h; path = react/headers/React/RCTActivityIndicatorViewManager.h; sourceTree = "<group>"; };
+		BC830EE6EAB0DC7300000000 /* RCTAutoInsetsProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAutoInsetsProtocol.h; path = react/headers/Views/RCTAutoInsetsProtocol.h; sourceTree = "<group>"; };
+		BC830EE6EB20E9D000000000 /* RCTMessageThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMessageThread.h; path = react/headers/React/RCTMessageThread.h; sourceTree = "<group>"; };
+		BC830EE6EB625C8400000000 /* RCTDecayAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDecayAnimation.h; path = react/headers/React/RCTDecayAnimation.h; sourceTree = "<group>"; };
+		BC830EE6EB630C0800000000 /* RCTI18nUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTI18nUtil.h; path = react/headers/React/RCTI18nUtil.h; sourceTree = "<group>"; };
+		BC830EE6EB739F8C00000000 /* RCTMountingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMountingManager.h; path = react/headers/React/RCTMountingManager.h; sourceTree = "<group>"; };
+		BC830EE6EB754E4600000000 /* RCTPullToRefreshViewComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPullToRefreshViewComponentView.h; path = react/headers/React/RCTPullToRefreshViewComponentView.h; sourceTree = "<group>"; };
+		BC830EE6EBA6A4EE00000000 /* RCTBackedTextInputDelegateAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBackedTextInputDelegateAdapter.h; path = react/headers/React/RCTBackedTextInputDelegateAdapter.h; sourceTree = "<group>"; };
+		BC830EE6EBF5759300000000 /* RCTMaskedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMaskedView.h; path = react/headers/React/RCTMaskedView.h; sourceTree = "<group>"; };
+		BC830EE6EC5F9D8000000000 /* RCTUIManagerUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTUIManagerUtils.h; path = react/headers/React/RCTUIManagerUtils.h; sourceTree = "<group>"; };
+		BC830EE6EE82767D00000000 /* RCTMessageThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMessageThread.h; path = react/headers/CxxBridge/RCTMessageThread.h; sourceTree = "<group>"; };
+		BC830EE6EE9242DA00000000 /* RCTDivisionAnimatedNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTDivisionAnimatedNode.h; path = react/headers/React/RCTDivisionAnimatedNode.h; sourceTree = "<group>"; };
+		BC830EE6EF61D1E200000000 /* RCTBaseTextViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBaseTextViewManager.h; path = react/headers/React/RCTBaseTextViewManager.h; sourceTree = "<group>"; };
+		BC830EE6F01735DB00000000 /* RCTSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSwitch.h; path = react/headers/Views/RCTSwitch.h; sourceTree = "<group>"; };
+		BC830EE6F0C53D9E00000000 /* RCTSurfaceHostingComponentOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceHostingComponentOptions.h; path = react/headers/React/RCTSurfaceHostingComponentOptions.h; sourceTree = "<group>"; };
+		BC830EE6F15DFFDF00000000 /* RNView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RNView.m; path = app/RNView.m; sourceTree = "<group>"; };
+		BC830EE6F27DD0D800000000 /* RCTUIManagerUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTUIManagerUtils.h; path = react/headers/Modules/RCTUIManagerUtils.h; sourceTree = "<group>"; };
+		BC830EE6F2C98CAA00000000 /* RCTTextDecorationLineType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTextDecorationLineType.h; path = react/headers/Views/RCTTextDecorationLineType.h; sourceTree = "<group>"; };
+		BC830EE6F3652C5200000000 /* RCTEventDispatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTEventDispatcher.h; path = react/headers/React/RCTEventDispatcher.h; sourceTree = "<group>"; };
+		BC830EE6F558C6C600000000 /* RCTPointerEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPointerEvents.h; path = react/headers/React/RCTPointerEvents.h; sourceTree = "<group>"; };
+		BC830EE6F559DB2600000000 /* RCTImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageView.h; path = react/headers/React/RCTImageView.h; sourceTree = "<group>"; };
+		BC830EE6F60DA9D300000000 /* RecoverableError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RecoverableError.h; path = react/headers/cxxreact/RecoverableError.h; sourceTree = "<group>"; };
+		BC830EE6F61BDCED00000000 /* RCTRootComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRootComponentView.h; path = react/headers/Fabric/Mounting/ComponentViews/Root/RCTRootComponentView.h; sourceTree = "<group>"; };
+		BC830EE6F65F522000000000 /* RCTInspector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTInspector.h; path = react/headers/Inspector/RCTInspector.h; sourceTree = "<group>"; };
+		BC830EE6F6DB687F00000000 /* RCTScrollContentViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTScrollContentViewManager.h; path = react/headers/Views/ScrollView/RCTScrollContentViewManager.h; sourceTree = "<group>"; };
+		BC830EE6F6E434A400000000 /* Instance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Instance.h; path = react/headers/cxxreact/Instance.h; sourceTree = "<group>"; };
+		BC830EE6F7131FBF00000000 /* RCTBackedTextInputViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBackedTextInputViewProtocol.h; path = react/headers/React/RCTBackedTextInputViewProtocol.h; sourceTree = "<group>"; };
+		BC830EE6F74E7F5600000000 /* JSExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSExecutor.h; path = react/headers/cxxreact/JSExecutor.h; sourceTree = "<group>"; };
+		BC830EE6F76920E500000000 /* RCTSinglelineTextInputViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSinglelineTextInputViewManager.h; path = react/headers/React/RCTSinglelineTextInputViewManager.h; sourceTree = "<group>"; };
+		BC830EE6F7F78DB600000000 /* RCTAssetsLibraryRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTAssetsLibraryRequestHandler.h; path = react/headers/React/RCTAssetsLibraryRequestHandler.h; sourceTree = "<group>"; };
+		BC830EE6FA4D855400000000 /* RCTSurfaceSizeMeasureMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceSizeMeasureMode.h; path = react/headers/React/RCTSurfaceSizeMeasureMode.h; sourceTree = "<group>"; };
+		BC830EE6FAE88A7C00000000 /* RCTImageResponseObserverProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageResponseObserverProxy.h; path = react/headers/Fabric/RCTImageResponseObserverProxy.h; sourceTree = "<group>"; };
+		BC830EE6FC2925AD00000000 /* RCTNativeAnimatedModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTNativeAnimatedModule.h; path = react/headers/React/RCTNativeAnimatedModule.h; sourceTree = "<group>"; };
+		BC830EE6FC7BB82000000000 /* RCTSurfaceDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTSurfaceDelegate.h; path = react/headers/React/RCTSurfaceDelegate.h; sourceTree = "<group>"; };
+		BC830EE6FCFC027100000000 /* RCTPrimitives.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPrimitives.h; path = react/headers/Fabric/RCTPrimitives.h; sourceTree = "<group>"; };
+		BC830EE6FE7CC8A600000000 /* RCTBaseTextInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTBaseTextInputView.h; path = react/headers/React/RCTBaseTextInputView.h; sourceTree = "<group>"; };
+		BC830EE6FE95626900000000 /* SharedProxyCxxModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SharedProxyCxxModule.h; path = react/headers/cxxreact/SharedProxyCxxModule.h; sourceTree = "<group>"; };
+		BC830EE6FEC53B8200000000 /* RCTScrollableProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTScrollableProtocol.h; path = react/headers/React/RCTScrollableProtocol.h; sourceTree = "<group>"; };
+		BC830EE6FF5B1A8300000000 /* RCTHTTPRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTHTTPRequestHandler.h; path = react/headers/React/RCTHTTPRequestHandler.h; sourceTree = "<group>"; };
+		BC830EE6FFB1CE6600000000 /* RCTImageResponseObserverProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTImageResponseObserverProxy.h; path = react/headers/React/RCTImageResponseObserverProxy.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		65D81DE50098C95800000000 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE61E2416DB00000000 /* experiments-inl.h */,
+				BC830EE60107C17C00000000 /* experiments.h */,
+			);
+			name = internal;
+			sourceTree = "<group>";
+		};
+		65D81DE50DD0FDF200000000 /* CoreModules */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6E5BA416200000000 /* CoreModulesPlugins.h */,
+				BC830EE6A007973E00000000 /* RCTExceptionsManager.h */,
+				BC830EE6688728BC00000000 /* RCTImageEditingManager.h */,
+				BC830EE6BC21922B00000000 /* RCTImageLoader.h */,
+				BC830EE61B9896BB00000000 /* RCTImageStoreManager.h */,
+				BC830EE66F06F46C00000000 /* RCTPlatform.h */,
+			);
+			name = CoreModules;
+			sourceTree = "<group>";
+		};
+		65D81DE51193959600000000 /* react */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6A546F2F400000000 /* BUILD */,
+				65D81DE52D75A1CC00000000 /* headers */,
+			);
+			name = react;
+			sourceTree = "<group>";
+		};
+		65D81DE517C9D5FF00000000 /* ComponentViews */ = {
+			isa = PBXGroup;
+			children = (
+				65D81DE5BF3DA66300000000 /* ActivityIndicator */,
+				65D81DE527F24F4400000000 /* Image */,
+				65D81DE5408571A200000000 /* Modal */,
+				65D81DE576B33F2C00000000 /* Root */,
+				65D81DE59EECE9CB00000000 /* ScrollView */,
+				65D81DE5BB8418C500000000 /* Slider */,
+				65D81DE538B5253600000000 /* Switch */,
+				65D81DE538C6D2D700000000 /* Text */,
+				65D81DE5DFCD4F8100000000 /* UnimplementedComponent */,
+				65D81DE5F8F9598500000000 /* View */,
+			);
+			name = ComponentViews;
+			sourceTree = "<group>";
+		};
+		65D81DE51D700F0300000000 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				65D81DE59EA906A100000000 /* Mounting */,
+				BC830EE65B7DCA0200000000 /* RCTConversions.h */,
+				BC830EE6E82656D500000000 /* RCTImageResponseDelegate.h */,
+				BC830EE6FAE88A7C00000000 /* RCTImageResponseObserverProxy.h */,
+				BC830EE6FCFC027100000000 /* RCTPrimitives.h */,
+				BC830EE60955792900000000 /* RCTScheduler.h */,
+				BC830EE64FA4EE7800000000 /* RCTSurfacePresenter.h */,
+				BC830EE66B19862800000000 /* RCTSurfaceRegistry.h */,
+				BC830EE69AC2198F00000000 /* RCTSurfaceTouchHandler.h */,
+				BC830EE6028A1FF500000000 /* RCTTouchableComponentViewProtocol.h */,
+				65D81DE53769E3C200000000 /* Surface */,
+				65D81DE5AA70962200000000 /* Utils */,
+			);
+			name = Fabric;
+			sourceTree = "<group>";
+		};
+		65D81DE51DAFDFF600000000 /* cxxreact */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6308E820500000000 /* CxxModule.h */,
+				BC830EE6887DE7A900000000 /* CxxNativeModule.h */,
+				BC830EE6F6E434A400000000 /* Instance.h */,
+				BC830EE64E8615CA00000000 /* JSBigString.h */,
+				BC830EE6425B1C5D00000000 /* JSBundleType.h */,
+				BC830EE616A45A0A00000000 /* JSDeltaBundleClient.h */,
+				BC830EE6F74E7F5600000000 /* JSExecutor.h */,
+				BC830EE663DEAC1100000000 /* JSIndexedRAMBundle.h */,
+				BC830EE68D5C18A300000000 /* JSModulesUnbundle.h */,
+				BC830EE63B9EA3C200000000 /* JsArgumentHelpers-inl.h */,
+				BC830EE62A646FF600000000 /* JsArgumentHelpers.h */,
+				BC830EE654FB049700000000 /* MessageQueueThread.h */,
+				BC830EE694D62F3800000000 /* MethodCall.h */,
+				BC830EE6007DE1C100000000 /* ModuleRegistry.h */,
+				BC830EE6A752D76600000000 /* NativeModule.h */,
+				BC830EE6598699D100000000 /* NativeToJsBridge.h */,
+				BC830EE69909F9C300000000 /* RAMBundleRegistry.h */,
+				BC830EE626B5A0C800000000 /* ReactMarker.h */,
+				BC830EE6F60DA9D300000000 /* RecoverableError.h */,
+				BC830EE6343CE9FE00000000 /* SampleCxxModule.h */,
+				BC830EE6FE95626900000000 /* SharedProxyCxxModule.h */,
+				BC830EE686614ECC00000000 /* SystraceSection.h */,
+			);
+			name = cxxreact;
+			sourceTree = "<group>";
+		};
+		65D81DE527F24F4400000000 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6A8878E2C00000000 /* RCTImageComponentView.h */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		65D81DE52D75A1CC00000000 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				65D81DE50DD0FDF200000000 /* CoreModules */,
+				65D81DE5FFF3B56E00000000 /* CxxBridge */,
+				65D81DE53ACE177100000000 /* CxxModule */,
+				65D81DE5980C592E00000000 /* CxxUtils */,
+				65D81DE5D4AF052F00000000 /* DevSupport */,
+				65D81DE51D700F0300000000 /* Fabric */,
+				65D81DE5D24D844D00000000 /* Inspector */,
+				65D81DE5DF681A6C00000000 /* Modules */,
+				65D81DE58A0E094000000000 /* Profiler */,
+				65D81DE531ED0EF100000000 /* React */,
+				65D81DE5BA71E7B100000000 /* UIUtils */,
+				65D81DE5AC055F7400000000 /* Views */,
+				65D81DE51DAFDFF600000000 /* cxxreact */,
+				65D81DE5BB9AE65500000000 /* jsi */,
+				65D81DE5B4BC43D100000000 /* jsireact */,
+				65D81DE5EE18783400000000 /* yoga */,
+			);
+			name = headers;
+			sourceTree = "<group>";
+		};
+		65D81DE531EB7E8500000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6B34D1F6600000000 /* BazelAppSwift.app */,
+				65D81DE5B26F04F500000000 /* Indexer */,
+				65D81DE5EC3AAB1500000000 /* bazel-tulsi-includes */,
+				BC830EE6E1B51EE200000000 /* libObjcLib.a */,
+				BC830EE60F247CE400000000 /* libSwiftLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65D81DE531ED0EF100000000 /* React */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE686D307C300000000 /* ARTBrush.h */,
+				BC830EE6B5A1C0A200000000 /* ARTCGFloatArray.h */,
+				BC830EE6B454A1F600000000 /* ARTContainer.h */,
+				BC830EE6769CFEC800000000 /* ARTGroup.h */,
+				BC830EE6E8CC255700000000 /* ARTGroupManager.h */,
+				BC830EE613DA76CC00000000 /* ARTLinearGradient.h */,
+				BC830EE6B43D021600000000 /* ARTNode.h */,
+				BC830EE65615AD2600000000 /* ARTNodeManager.h */,
+				BC830EE606FEA5BA00000000 /* ARTPattern.h */,
+				BC830EE67179E51700000000 /* ARTRadialGradient.h */,
+				BC830EE67CBFD48A00000000 /* ARTRenderable.h */,
+				BC830EE60E8738EE00000000 /* ARTRenderableManager.h */,
+				BC830EE694E2981C00000000 /* ARTShape.h */,
+				BC830EE67749337200000000 /* ARTShapeManager.h */,
+				BC830EE63EC9910100000000 /* ARTSolidColor.h */,
+				BC830EE6808EE0DC00000000 /* ARTSurfaceView.h */,
+				BC830EE6A397E9B800000000 /* ARTSurfaceViewManager.h */,
+				BC830EE6DAC034A000000000 /* ARTText.h */,
+				BC830EE62DE42AEA00000000 /* ARTTextFrame.h */,
+				BC830EE6BCA32ABC00000000 /* ARTTextManager.h */,
+				BC830EE623AF617C00000000 /* CoreModulesPlugins.h */,
+				BC830EE6597758A700000000 /* DispatchMessageQueueThread.h */,
+				BC830EE6D77A913300000000 /* FBLazyIterator.h */,
+				BC830EE6BA74B9A600000000 /* FBLazyVector.h */,
+				BC830EE63A872BE900000000 /* FBReactNativeSpec.h */,
+				BC830EE61734F4A600000000 /* JSCExecutorFactory.h */,
+				BC830EE681CFAFE100000000 /* MainRunLoopEventBeat.h */,
+				BC830EE6A0DFDB8C00000000 /* NSDataBigString.h */,
+				BC830EE63A58FE9000000000 /* NSTextStorage+FontScaling.h */,
+				BC830EE65A83D24800000000 /* RCTAccessibilityManager.h */,
+				BC830EE69C14176600000000 /* RCTActionSheetManager.h */,
+				BC830EE6B036F18700000000 /* RCTActivityIndicatorView.h */,
+				BC830EE6311C944C00000000 /* RCTActivityIndicatorViewComponentView.h */,
+				BC830EE6E8E60CF600000000 /* RCTActivityIndicatorViewManager.h */,
+				BC830EE66F21370D00000000 /* RCTAdditionAnimatedNode.h */,
+				BC830EE63A92458A00000000 /* RCTAlertManager.h */,
+				BC830EE6031E272800000000 /* RCTAnimatedImage.h */,
+				BC830EE60B3DD29100000000 /* RCTAnimatedNode.h */,
+				BC830EE63AD73C6F00000000 /* RCTAnimationDriver.h */,
+				BC830EE6CC01B19800000000 /* RCTAnimationType.h */,
+				BC830EE6E0DD2CEC00000000 /* RCTAnimationUtils.h */,
+				BC830EE67BB7AEAF00000000 /* RCTAppState.h */,
+				BC830EE65DE6F81F00000000 /* RCTAssert.h */,
+				BC830EE6F7F78DB600000000 /* RCTAssetsLibraryRequestHandler.h */,
+				BC830EE6DA51A3D900000000 /* RCTAsyncLocalStorage.h */,
+				BC830EE6CE1140BE00000000 /* RCTAutoInsetsProtocol.h */,
+				BC830EE624CB990500000000 /* RCTBackedTextInputDelegate.h */,
+				BC830EE6EBA6A4EE00000000 /* RCTBackedTextInputDelegateAdapter.h */,
+				BC830EE6F7131FBF00000000 /* RCTBackedTextInputViewProtocol.h */,
+				BC830EE6E5E1794E00000000 /* RCTBaseTextInputShadowView.h */,
+				BC830EE6FE7CC8A600000000 /* RCTBaseTextInputView.h */,
+				BC830EE6700EC28900000000 /* RCTBaseTextInputViewManager.h */,
+				BC830EE697708BB900000000 /* RCTBaseTextShadowView.h */,
+				BC830EE6EF61D1E200000000 /* RCTBaseTextViewManager.h */,
+				BC830EE64D73A3E400000000 /* RCTBlobCollector.h */,
+				BC830EE68E72DA7B00000000 /* RCTBlobManager.h */,
+				BC830EE616E35A0500000000 /* RCTBorderDrawing.h */,
+				BC830EE61973D27E00000000 /* RCTBorderStyle.h */,
+				BC830EE66CD94BCE00000000 /* RCTBridge+Private.h */,
+				BC830EE638772C5E00000000 /* RCTBridge.h */,
+				BC830EE63EDA4E9100000000 /* RCTBridgeDelegate.h */,
+				BC830EE619BFCC2000000000 /* RCTBridgeMethod.h */,
+				BC830EE690BEBD2C00000000 /* RCTBridgeModule.h */,
+				BC830EE6B25B313200000000 /* RCTBundleURLProvider.h */,
+				BC830EE6A8C62EC000000000 /* RCTCameraRollManager.h */,
+				BC830EE69C2168BD00000000 /* RCTClipboard.h */,
+				BC830EE6A6A7F4F900000000 /* RCTComponent.h */,
+				BC830EE651E273CF00000000 /* RCTComponentData.h */,
+				BC830EE6D1543DBE00000000 /* RCTComponentEvent.h */,
+				BC830EE6634C3E8A00000000 /* RCTComponentViewFactory.h */,
+				BC830EE60C5EFC9E00000000 /* RCTComponentViewProtocol.h */,
+				BC830EE64659AFBC00000000 /* RCTComponentViewRegistry.h */,
+				BC830EE67D785F1000000000 /* RCTConversions.h */,
+				BC830EE68B65FE1100000000 /* RCTConvert+ART.h */,
+				BC830EE6DB93B35900000000 /* RCTConvert+CoreLocation.h */,
+				BC830EE604ECDD2600000000 /* RCTConvert+Text.h */,
+				BC830EE62F82464D00000000 /* RCTConvert+Transform.h */,
+				BC830EE691E5F67400000000 /* RCTConvert.h */,
+				BC830EE6B21F7FBC00000000 /* RCTConvertHelpers.h */,
+				BC830EE67676DBEC00000000 /* RCTCxxBridgeDelegate.h */,
+				BC830EE6BBF91F5100000000 /* RCTCxxConvert.h */,
+				BC830EE6BCFA3B9B00000000 /* RCTCxxMethod.h */,
+				BC830EE6D65ED95F00000000 /* RCTCxxModule.h */,
+				BC830EE66201619100000000 /* RCTCxxUtils.h */,
+				BC830EE6E0E577C300000000 /* RCTDataRequestHandler.h */,
+				BC830EE66A3AA66800000000 /* RCTDatePicker.h */,
+				BC830EE6172F2C0100000000 /* RCTDatePickerManager.h */,
+				BC830EE6EB625C8400000000 /* RCTDecayAnimation.h */,
+				BC830EE62B3556D300000000 /* RCTDefines.h */,
+				BC830EE6A8632AC500000000 /* RCTDevLoadingView.h */,
+				BC830EE60E6F082A00000000 /* RCTDevMenu.h */,
+				BC830EE61828F7C900000000 /* RCTDevSettings.h */,
+				BC830EE65B4D811B00000000 /* RCTDeviceInfo.h */,
+				BC830EE6871CA08200000000 /* RCTDiffClampAnimatedNode.h */,
+				BC830EE60265C55400000000 /* RCTDisplayLink.h */,
+				BC830EE6EE9242DA00000000 /* RCTDivisionAnimatedNode.h */,
+				BC830EE6888E5BF900000000 /* RCTEnhancedScrollView.h */,
+				BC830EE6C3A11DEA00000000 /* RCTErrorCustomizer.h */,
+				BC830EE63CD68E5D00000000 /* RCTErrorInfo.h */,
+				BC830EE6722DB81400000000 /* RCTEventAnimation.h */,
+				BC830EE6F3652C5200000000 /* RCTEventDispatcher.h */,
+				BC830EE66BDA0B6100000000 /* RCTEventEmitter.h */,
+				BC830EE607ED5B7F00000000 /* RCTExceptionsManager.h */,
+				BC830EE670ED326200000000 /* RCTFPSGraph.h */,
+				BC830EE6592ACE3400000000 /* RCTFabricModalHostViewController.h */,
+				BC830EE6E175BA9200000000 /* RCTFabricSurface.h */,
+				BC830EE66042B50200000000 /* RCTFabricSurfaceHostingProxyRootView.h */,
+				BC830EE6B75B973E00000000 /* RCTFabricSurfaceHostingView.h */,
+				BC830EE6269D66FE00000000 /* RCTFileReaderModule.h */,
+				BC830EE69257528F00000000 /* RCTFileRequestHandler.h */,
+				BC830EE6D38724FE00000000 /* RCTFollyConvert.h */,
+				BC830EE69252B76A00000000 /* RCTFont.h */,
+				BC830EE6D1D147AE00000000 /* RCTFrameAnimation.h */,
+				BC830EE655FADC8300000000 /* RCTFrameUpdate.h */,
+				BC830EE67DB578C200000000 /* RCTGIFImageDecoder.h */,
+				BC830EE6A9CA79F400000000 /* RCTGenericDelegateSplitter.h */,
+				BC830EE6FF5B1A8300000000 /* RCTHTTPRequestHandler.h */,
+				BC830EE627125B4100000000 /* RCTI18nManager.h */,
+				BC830EE6EB630C0800000000 /* RCTI18nUtil.h */,
+				BC830EE624BDFF4F00000000 /* RCTImageBlurUtils.h */,
+				BC830EE65BDB7EF100000000 /* RCTImageCache.h */,
+				BC830EE69FB0DF9100000000 /* RCTImageComponentView.h */,
+				BC830EE634E9C02D00000000 /* RCTImageDataDecoder.h */,
+				BC830EE6B25048FA00000000 /* RCTImageEditingManager.h */,
+				BC830EE61698DE6B00000000 /* RCTImageLoader.h */,
+				BC830EE64E7C7DCF00000000 /* RCTImageLoaderProtocol.h */,
+				BC830EE6B0E8CE7700000000 /* RCTImagePickerManager.h */,
+				BC830EE64676942500000000 /* RCTImageResponseDelegate.h */,
+				BC830EE6FFB1CE6600000000 /* RCTImageResponseObserverProxy.h */,
+				BC830EE6854ED65B00000000 /* RCTImageShadowView.h */,
+				BC830EE65D7AD3D900000000 /* RCTImageSource.h */,
+				BC830EE6925E869B00000000 /* RCTImageStoreManager.h */,
+				BC830EE62C3D8E6800000000 /* RCTImageURLLoader.h */,
+				BC830EE6B4656B9900000000 /* RCTImageUtils.h */,
+				BC830EE6F559DB2600000000 /* RCTImageView.h */,
+				BC830EE63912C0E500000000 /* RCTImageViewManager.h */,
+				BC830EE64A22E10E00000000 /* RCTInputAccessoryShadowView.h */,
+				BC830EE660D21C7900000000 /* RCTInputAccessoryView.h */,
+				BC830EE6C3991F1800000000 /* RCTInputAccessoryViewContent.h */,
+				BC830EE695467A8F00000000 /* RCTInputAccessoryViewManager.h */,
+				BC830EE61ED0B4BB00000000 /* RCTInspector.h */,
+				BC830EE660DB6C9F00000000 /* RCTInspectorDevServerHelper.h */,
+				BC830EE62EF72E9600000000 /* RCTInspectorPackagerConnection.h */,
+				BC830EE6DF64B7A400000000 /* RCTInterpolationAnimatedNode.h */,
+				BC830EE6A3A1AFCB00000000 /* RCTInvalidating.h */,
+				BC830EE67F3F633300000000 /* RCTJSStackFrame.h */,
+				BC830EE694CED19200000000 /* RCTJavaScriptExecutor.h */,
+				BC830EE69094DA7D00000000 /* RCTJavaScriptLoader.h */,
+				BC830EE6D5CCD70800000000 /* RCTKeyCommands.h */,
+				BC830EE6CFE29B0600000000 /* RCTKeyboardObserver.h */,
+				BC830EE6DE4A060F00000000 /* RCTLayout.h */,
+				BC830EE66CB88F2D00000000 /* RCTLayoutAnimation.h */,
+				BC830EE69D53645D00000000 /* RCTLayoutAnimationGroup.h */,
+				BC830EE644754A6200000000 /* RCTLinkingManager.h */,
+				BC830EE6A2F90A3200000000 /* RCTLocalAssetImageLoader.h */,
+				BC830EE63C34E79D00000000 /* RCTLog.h */,
+				BC830EE6E1FF14A900000000 /* RCTMacros.h */,
+				BC830EE620065B4800000000 /* RCTManagedPointer.h */,
+				BC830EE6EBF5759300000000 /* RCTMaskedView.h */,
+				BC830EE64D878B9300000000 /* RCTMaskedViewManager.h */,
+				BC830EE6EB20E9D000000000 /* RCTMessageThread.h */,
+				BC830EE684530B4000000000 /* RCTModalHostView.h */,
+				BC830EE676B165E500000000 /* RCTModalHostViewComponentView.h */,
+				BC830EE6A6DF0F0C00000000 /* RCTModalHostViewController.h */,
+				BC830EE619D1353D00000000 /* RCTModalHostViewManager.h */,
+				BC830EE6D188656400000000 /* RCTModalManager.h */,
+				BC830EE6DF081FE700000000 /* RCTModuleData.h */,
+				BC830EE667C718BC00000000 /* RCTModuleMethod.h */,
+				BC830EE602BDF2F400000000 /* RCTModuloAnimatedNode.h */,
+				BC830EE6EB739F8C00000000 /* RCTMountingManager.h */,
+				BC830EE6D0883F2B00000000 /* RCTMountingManagerDelegate.h */,
+				BC830EE68BEF4ECB00000000 /* RCTMultilineTextInputView.h */,
+				BC830EE6E06BCE9600000000 /* RCTMultilineTextInputViewManager.h */,
+				BC830EE6D45DCD4100000000 /* RCTMultipartDataTask.h */,
+				BC830EE68D21B7D900000000 /* RCTMultipartStreamReader.h */,
+				BC830EE64D5752AA00000000 /* RCTMultiplicationAnimatedNode.h */,
+				BC830EE6FC2925AD00000000 /* RCTNativeAnimatedModule.h */,
+				BC830EE626772ECC00000000 /* RCTNativeAnimatedNodesManager.h */,
+				BC830EE6AEB6B4EB00000000 /* RCTNativeModule.h */,
+				BC830EE6966CB87500000000 /* RCTNetInfo.h */,
+				BC830EE69FA4BCAA00000000 /* RCTNetworkTask.h */,
+				BC830EE61EE8985100000000 /* RCTNetworking.h */,
+				BC830EE687EC0D7B00000000 /* RCTNullability.h */,
+				BC830EE603ECDF9700000000 /* RCTObjcExecutor.h */,
+				BC830EE66C0233AA00000000 /* RCTPackagerClient.h */,
+				BC830EE65696121700000000 /* RCTPackagerConnection.h */,
+				BC830EE6336B87F600000000 /* RCTParagraphComponentView.h */,
+				BC830EE6CB79754D00000000 /* RCTParserUtils.h */,
+				BC830EE68C95677D00000000 /* RCTPerformanceLogger.h */,
+				BC830EE682B71D6D00000000 /* RCTPhotoLibraryImageLoader.h */,
+				BC830EE65B465ACB00000000 /* RCTPicker.h */,
+				BC830EE62A3EF9F800000000 /* RCTPickerManager.h */,
+				BC830EE65A86FC3F00000000 /* RCTPlatform.h */,
+				BC830EE6F558C6C600000000 /* RCTPointerEvents.h */,
+				BC830EE6C52F6AA400000000 /* RCTPrimitives.h */,
+				BC830EE6669BC25D00000000 /* RCTProfile.h */,
+				BC830EE69879686200000000 /* RCTProgressViewManager.h */,
+				BC830EE668CE674C00000000 /* RCTPropsAnimatedNode.h */,
+				BC830EE6EB754E4600000000 /* RCTPullToRefreshViewComponentView.h */,
+				BC830EE6D502D05F00000000 /* RCTPushNotificationManager.h */,
+				BC830EE6AD0FF8AE00000000 /* RCTRawTextShadowView.h */,
+				BC830EE6D7D7759100000000 /* RCTRawTextViewManager.h */,
+				BC830EE6019AF07D00000000 /* RCTReconnectingWebSocket.h */,
+				BC830EE601E5F58400000000 /* RCTRedBox.h */,
+				BC830EE6A830D6A200000000 /* RCTRedBoxExtraDataViewController.h */,
+				BC830EE6C1B32A1800000000 /* RCTRefreshControl.h */,
+				BC830EE6DE4C13DE00000000 /* RCTRefreshControlManager.h */,
+				BC830EE6E82EBAF600000000 /* RCTReloadCommand.h */,
+				BC830EE660F2F7B000000000 /* RCTRequired.h */,
+				BC830EE6E20A791F00000000 /* RCTResizeMode.h */,
+				BC830EE6A8135C3800000000 /* RCTRootComponentView.h */,
+				BC830EE66D02302700000000 /* RCTRootContentView.h */,
+				BC830EE6D16B669100000000 /* RCTRootShadowView.h */,
+				BC830EE64A31160800000000 /* RCTRootView.h */,
+				BC830EE679D0267100000000 /* RCTRootViewDelegate.h */,
+				BC830EE61A4AC80900000000 /* RCTRootViewInternal.h */,
+				BC830EE6A05C3F2900000000 /* RCTSRWebSocket.h */,
+				BC830EE691A4271400000000 /* RCTSafeAreaShadowView.h */,
+				BC830EE6A77E170000000000 /* RCTSafeAreaView.h */,
+				BC830EE6A417ED1E00000000 /* RCTSafeAreaViewLocalData.h */,
+				BC830EE6B3CB8B9800000000 /* RCTSafeAreaViewManager.h */,
+				BC830EE602EC1AFF00000000 /* RCTScheduler.h */,
+				BC830EE6DCBD201700000000 /* RCTScrollContentShadowView.h */,
+				BC830EE641C99ED300000000 /* RCTScrollContentView.h */,
+				BC830EE6DF28333300000000 /* RCTScrollContentViewManager.h */,
+				BC830EE69233104900000000 /* RCTScrollView.h */,
+				BC830EE61AC3B8C700000000 /* RCTScrollViewComponentView.h */,
+				BC830EE6C4A5E7CF00000000 /* RCTScrollViewManager.h */,
+				BC830EE6FEC53B8200000000 /* RCTScrollableProtocol.h */,
+				BC830EE67E35EA4E00000000 /* RCTSegmentedControl.h */,
+				BC830EE670F9B9B800000000 /* RCTSegmentedControlManager.h */,
+				BC830EE61C66B76E00000000 /* RCTSettingsManager.h */,
+				BC830EE6BAF763A600000000 /* RCTShadowView+Internal.h */,
+				BC830EE61B72B63100000000 /* RCTShadowView+Layout.h */,
+				BC830EE60545429900000000 /* RCTShadowView.h */,
+				BC830EE6ADED34E300000000 /* RCTSinglelineTextInputView.h */,
+				BC830EE6F76920E500000000 /* RCTSinglelineTextInputViewManager.h */,
+				BC830EE67186625000000000 /* RCTSlider.h */,
+				BC830EE656EA97F600000000 /* RCTSliderComponentView.h */,
+				BC830EE63687674500000000 /* RCTSliderManager.h */,
+				BC830EE6299AA1E600000000 /* RCTSourceCode.h */,
+				BC830EE6164B21BD00000000 /* RCTSpringAnimation.h */,
+				BC830EE636D361A000000000 /* RCTStatusBarManager.h */,
+				BC830EE6D858D79000000000 /* RCTStyleAnimatedNode.h */,
+				BC830EE667544BA800000000 /* RCTSubtractionAnimatedNode.h */,
+				BC830EE6223D6B6000000000 /* RCTSurface.h */,
+				BC830EE662880ED500000000 /* RCTSurfaceBackedComponent.h */,
+				BC830EE6D77D3D9300000000 /* RCTSurfaceBackedComponentState.h */,
+				BC830EE6FC7BB82000000000 /* RCTSurfaceDelegate.h */,
+				BC830EE602A1CEAA00000000 /* RCTSurfaceHostingComponent+Internal.h */,
+				BC830EE6B3F7C0B700000000 /* RCTSurfaceHostingComponent.h */,
+				BC830EE6A1D141E300000000 /* RCTSurfaceHostingComponentController.h */,
+				BC830EE6F0C53D9E00000000 /* RCTSurfaceHostingComponentOptions.h */,
+				BC830EE6A2ABFB9700000000 /* RCTSurfaceHostingComponentState.h */,
+				BC830EE6D0735F3B00000000 /* RCTSurfaceHostingProxyRootView.h */,
+				BC830EE69B1D893000000000 /* RCTSurfaceHostingView.h */,
+				BC830EE65362863600000000 /* RCTSurfacePresenter.h */,
+				BC830EE657E023C100000000 /* RCTSurfacePresenterStub.h */,
+				BC830EE681C107D100000000 /* RCTSurfaceRegistry.h */,
+				BC830EE68330F64F00000000 /* RCTSurfaceRootShadowView.h */,
+				BC830EE69A4D878300000000 /* RCTSurfaceRootShadowViewDelegate.h */,
+				BC830EE61673F5B500000000 /* RCTSurfaceRootView.h */,
+				BC830EE6FA4D855400000000 /* RCTSurfaceSizeMeasureMode.h */,
+				BC830EE642F710F100000000 /* RCTSurfaceStage.h */,
+				BC830EE65D189CF200000000 /* RCTSurfaceTouchHandler.h */,
+				BC830EE68A4B49D300000000 /* RCTSurfaceView+Internal.h */,
+				BC830EE69301B7B100000000 /* RCTSurfaceView.h */,
+				BC830EE683D5805E00000000 /* RCTSwitch.h */,
+				BC830EE627A9D61400000000 /* RCTSwitchComponentView.h */,
+				BC830EE69C71D29B00000000 /* RCTSwitchManager.h */,
+				BC830EE6C9830EF600000000 /* RCTTVNavigationEventEmitter.h */,
+				BC830EE6D4DF49A600000000 /* RCTTVRemoteHandler.h */,
+				BC830EE68287E39900000000 /* RCTTVView.h */,
+				BC830EE63D28479A00000000 /* RCTTextAttributes.h */,
+				BC830EE629FFF20D00000000 /* RCTTextDecorationLineType.h */,
+				BC830EE61E4E5ADB00000000 /* RCTTextSelection.h */,
+				BC830EE6A6EBAD2B00000000 /* RCTTextShadowView.h */,
+				BC830EE6D65807C400000000 /* RCTTextTransform.h */,
+				BC830EE66AECB78A00000000 /* RCTTextView.h */,
+				BC830EE68D39F5FA00000000 /* RCTTextViewManager.h */,
+				BC830EE6E4DB3AF500000000 /* RCTTiming.h */,
+				BC830EE6C8C06A3A00000000 /* RCTTouchEvent.h */,
+				BC830EE62FFCE11700000000 /* RCTTouchHandler.h */,
+				BC830EE63413A01500000000 /* RCTTouchableComponentViewProtocol.h */,
+				BC830EE671AF86D300000000 /* RCTTrackingAnimatedNode.h */,
+				BC830EE6C64D69F800000000 /* RCTTransformAnimatedNode.h */,
+				BC830EE6BBD2DBB600000000 /* RCTTypedModuleConstants.h */,
+				BC830EE6C2DFF03900000000 /* RCTUIImageViewAnimated.h */,
+				BC830EE69AD779F400000000 /* RCTUIManager.h */,
+				BC830EE66980300900000000 /* RCTUIManagerObserverCoordinator.h */,
+				BC830EE6EC5F9D8000000000 /* RCTUIManagerUtils.h */,
+				BC830EE6DFC4559300000000 /* RCTUITextField.h */,
+				BC830EE60E07E46D00000000 /* RCTUITextView.h */,
+				BC830EE6811FE05A00000000 /* RCTUIUtils.h */,
+				BC830EE64C32B48200000000 /* RCTURLRequestDelegate.h */,
+				BC830EE64D6F549700000000 /* RCTURLRequestHandler.h */,
+				BC830EE6DAB2046B00000000 /* RCTUnimplementedNativeComponentView.h */,
+				BC830EE610E9C9B200000000 /* RCTUtils.h */,
+				BC830EE69027E9DD00000000 /* RCTValueAnimatedNode.h */,
+				BC830EE62279340200000000 /* RCTVersion.h */,
+				BC830EE605A3531600000000 /* RCTVibration.h */,
+				BC830EE60FC651C800000000 /* RCTView.h */,
+				BC830EE62482866B00000000 /* RCTViewComponentView.h */,
+				BC830EE6D910C71C00000000 /* RCTViewManager.h */,
+				BC830EE6E02FF78F00000000 /* RCTVirtualTextShadowView.h */,
+				BC830EE68CB3B3EE00000000 /* RCTVirtualTextViewManager.h */,
+				BC830EE64652687900000000 /* RCTWeakProxy.h */,
+				BC830EE6D0B1146600000000 /* RCTWebSocketExecutor.h */,
+				BC830EE61A9F48FF00000000 /* RCTWebSocketModule.h */,
+				BC830EE6ACC8516700000000 /* RCTWrapper.h */,
+				BC830EE6365EF6A000000000 /* RCTWrapperExampleView.h */,
+				BC830EE6AA0CC4FB00000000 /* RCTWrapperExampleViewController.h */,
+				BC830EE628E7B55800000000 /* RCTWrapperReactRootViewController.h */,
+				BC830EE61E224B8800000000 /* RCTWrapperReactRootViewManager.h */,
+				BC830EE66C304F3800000000 /* RCTWrapperShadowView.h */,
+				BC830EE6C3751A6600000000 /* RCTWrapperView.h */,
+				BC830EE6D7C82CDE00000000 /* RCTWrapperViewController.h */,
+				BC830EE6DBB51E7400000000 /* RCTWrapperViewControllerHostingView.h */,
+				BC830EE61D73615400000000 /* RCTWrapperViewManager.h */,
+				BC830EE6247DF08000000000 /* RuntimeEventBeat.h */,
+				BC830EE6160B668400000000 /* Sample.h */,
+				BC830EE6C8EE0B5C00000000 /* UIView+ComponentViewProtocol.h */,
+				BC830EE60D85FADB00000000 /* UIView+Private.h */,
+				BC830EE63F0A3FE500000000 /* UIView+React.h */,
+			);
+			name = React;
+			sourceTree = "<group>";
+		};
+		65D81DE53769E3C200000000 /* Surface */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6AE4214B800000000 /* RCTFabricSurface.h */,
+				BC830EE62D6E779B00000000 /* RCTFabricSurfaceHostingProxyRootView.h */,
+				BC830EE60923A30800000000 /* RCTFabricSurfaceHostingView.h */,
+			);
+			name = Surface;
+			sourceTree = "<group>";
+		};
+		65D81DE538B5253600000000 /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE65BA19F6100000000 /* RCTSwitchComponentView.h */,
+			);
+			name = Switch;
+			sourceTree = "<group>";
+		};
+		65D81DE538C6D2D700000000 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE65425E09A00000000 /* RCTParagraphComponentView.h */,
+			);
+			name = Text;
+			sourceTree = "<group>";
+		};
+		65D81DE53ACE177100000000 /* CxxModule */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE601091BFD00000000 /* DispatchMessageQueueThread.h */,
+				BC830EE69BE0BB7B00000000 /* RCTCxxMethod.h */,
+				BC830EE68731FB9A00000000 /* RCTCxxModule.h */,
+				BC830EE65DAEB3C500000000 /* RCTCxxUtils.h */,
+				BC830EE69A7B767700000000 /* RCTNativeModule.h */,
+			);
+			name = CxxModule;
+			sourceTree = "<group>";
+		};
+		65D81DE5408571A200000000 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE65B68D4FD00000000 /* RCTFabricModalHostViewController.h */,
+				BC830EE618DF139800000000 /* RCTModalHostViewComponentView.h */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		65D81DE5706BAFFD00000000 /* event */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE62A08A54B00000000 /* event.h */,
+			);
+			name = event;
+			sourceTree = "<group>";
+		};
+		65D81DE576B33F2C00000000 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6F61BDCED00000000 /* RCTRootComponentView.h */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		65D81DE58A0E094000000000 /* Profiler */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE63BEB3D1200000000 /* RCTFPSGraph.h */,
+				BC830EE67668828200000000 /* RCTMacros.h */,
+				BC830EE6D2C2632E00000000 /* RCTProfile.h */,
+			);
+			name = Profiler;
+			sourceTree = "<group>";
+		};
+		65D81DE5944839F600000000 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				65D81DE5E28C7D8000000000 /* BazelAppSwift-intermediates */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		65D81DE5944839F600000001 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6A7D90C1000000000 /* AppDelegate.swift */,
+				BC830EE6700605C200000000 /* BUILD */,
+				BC830EE6479E1A4100000000 /* Info.plist */,
+				BC830EE6AEB841E500000000 /* LaunchScreen.storyboard */,
+				BC830EE6AA2F0A7D00000000 /* Main.storyboard */,
+				BC830EE6159ABB7700000000 /* RNView.h */,
+				BC830EE6F15DFFDF00000000 /* RNView.m */,
+				BC830EE6787DDD0500000000 /* ViewController.swift */,
+				BC830EE6428381C600000000 /* main.jsbundle */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		65D81DE5980C592E00000000 /* CxxUtils */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE67FA3688600000000 /* RCTFollyConvert.h */,
+			);
+			name = CxxUtils;
+			sourceTree = "<group>";
+		};
+		65D81DE59EA906A100000000 /* Mounting */ = {
+			isa = PBXGroup;
+			children = (
+				65D81DE517C9D5FF00000000 /* ComponentViews */,
+				BC830EE6AF3EAF8300000000 /* RCTComponentViewFactory.h */,
+				BC830EE64632265800000000 /* RCTComponentViewProtocol.h */,
+				BC830EE697AC045400000000 /* RCTComponentViewRegistry.h */,
+				BC830EE69D633D3F00000000 /* RCTMountingManager.h */,
+				BC830EE6B7492D7700000000 /* RCTMountingManagerDelegate.h */,
+				BC830EE66B12C23E00000000 /* UIView+ComponentViewProtocol.h */,
+			);
+			name = Mounting;
+			sourceTree = "<group>";
+		};
+		65D81DE59EECE9CB00000000 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6DA7FAA6200000000 /* RCTEnhancedScrollView.h */,
+				BC830EE60AFF548F00000000 /* RCTPullToRefreshViewComponentView.h */,
+				BC830EE621ECC59F00000000 /* RCTScrollViewComponentView.h */,
+			);
+			name = ScrollView;
+			sourceTree = "<group>";
+		};
+		65D81DE59EECE9CB00000001 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE61D7431BC00000000 /* RCTScrollContentShadowView.h */,
+				BC830EE6ACD40D3400000000 /* RCTScrollContentView.h */,
+				BC830EE6F6DB687F00000000 /* RCTScrollContentViewManager.h */,
+				BC830EE6B326002500000000 /* RCTScrollView.h */,
+				BC830EE6802BCF1700000000 /* RCTScrollViewManager.h */,
+				BC830EE6DD32708700000000 /* RCTScrollableProtocol.h */,
+			);
+			name = ScrollView;
+			sourceTree = "<group>";
+		};
+		65D81DE5AA70962200000000 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6CFFA027000000000 /* MainRunLoopEventBeat.h */,
+				BC830EE67E242F5300000000 /* RCTGenericDelegateSplitter.h */,
+				BC830EE6150940FC00000000 /* RuntimeEventBeat.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		65D81DE5AC055F7400000000 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE66C46F94800000000 /* RCTActivityIndicatorView.h */,
+				BC830EE6A85431D400000000 /* RCTActivityIndicatorViewManager.h */,
+				BC830EE67662D2AD00000000 /* RCTAnimationType.h */,
+				BC830EE6EAB0DC7300000000 /* RCTAutoInsetsProtocol.h */,
+				BC830EE6C06C4E1F00000000 /* RCTBorderDrawing.h */,
+				BC830EE605CBCBB000000000 /* RCTBorderStyle.h */,
+				BC830EE6C0A111BA00000000 /* RCTComponent.h */,
+				BC830EE6B0AB04BF00000000 /* RCTComponentData.h */,
+				BC830EE68191F04C00000000 /* RCTConvert+CoreLocation.h */,
+				BC830EE66A425C8B00000000 /* RCTConvert+Transform.h */,
+				BC830EE64C359C5200000000 /* RCTDatePicker.h */,
+				BC830EE6A6FDE6BF00000000 /* RCTDatePickerManager.h */,
+				BC830EE6BF563B5100000000 /* RCTFont.h */,
+				BC830EE64980D9FD00000000 /* RCTLayout.h */,
+				BC830EE6BCFA290900000000 /* RCTMaskedView.h */,
+				BC830EE61BC4A95600000000 /* RCTMaskedViewManager.h */,
+				BC830EE66116BE0700000000 /* RCTModalHostView.h */,
+				BC830EE6470BF1FE00000000 /* RCTModalHostViewController.h */,
+				BC830EE6BA8511BC00000000 /* RCTModalHostViewManager.h */,
+				BC830EE62285FB8500000000 /* RCTModalManager.h */,
+				BC830EE63F70920F00000000 /* RCTPicker.h */,
+				BC830EE628FD456B00000000 /* RCTPickerManager.h */,
+				BC830EE60523918A00000000 /* RCTPointerEvents.h */,
+				BC830EE6A6EB105A00000000 /* RCTProgressViewManager.h */,
+				BC830EE6D76B116C00000000 /* RCTRefreshControl.h */,
+				BC830EE6315B38D700000000 /* RCTRefreshControlManager.h */,
+				BC830EE65F32E5F500000000 /* RCTRootShadowView.h */,
+				BC830EE6A933A16D00000000 /* RCTSegmentedControl.h */,
+				BC830EE605FF7F9500000000 /* RCTSegmentedControlManager.h */,
+				BC830EE64199941E00000000 /* RCTShadowView+Internal.h */,
+				BC830EE62E7C5FE100000000 /* RCTShadowView+Layout.h */,
+				BC830EE6B861B2B600000000 /* RCTShadowView.h */,
+				BC830EE689B7368800000000 /* RCTSlider.h */,
+				BC830EE6B9378F8D00000000 /* RCTSliderManager.h */,
+				BC830EE6F01735DB00000000 /* RCTSwitch.h */,
+				BC830EE667F6453E00000000 /* RCTSwitchManager.h */,
+				BC830EE6DB84234B00000000 /* RCTTVView.h */,
+				BC830EE6F2C98CAA00000000 /* RCTTextDecorationLineType.h */,
+				BC830EE6E082BEEF00000000 /* RCTView.h */,
+				BC830EE6544352D200000000 /* RCTViewManager.h */,
+				BC830EE620D31ED400000000 /* RCTWrapperViewController.h */,
+				65D81DE5CC47265800000000 /* SafeAreaView */,
+				65D81DE59EECE9CB00000001 /* ScrollView */,
+				BC830EE6036DB01D00000000 /* UIView+Private.h */,
+				BC830EE63CDD725900000000 /* UIView+React.h */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		65D81DE5B26F04F500000000 /* Indexer */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6710FCCA400000000 /* _idx_SwiftLib_5B63E32C_ios_min10.0.framework */,
+				BC830EE68D6E175800000000 /* lib_idx_ObjcLib_09D04FD6_ios_min10.0.a */,
+			);
+			name = Indexer;
+			sourceTree = "<group>";
+		};
+		65D81DE5B4BC43D100000000 /* jsireact */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6E50F9B9C00000000 /* JSIExecutor.h */,
+				BC830EE6866553D100000000 /* JSINativeModules.h */,
+			);
+			name = jsireact;
+			sourceTree = "<group>";
+		};
+		65D81DE5BA71E7B100000000 /* UIUtils */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6AFE519FC00000000 /* RCTUIUtils.h */,
+			);
+			name = UIUtils;
+			sourceTree = "<group>";
+		};
+		65D81DE5BB8418C500000000 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6C27559E300000000 /* RCTSliderComponentView.h */,
+			);
+			name = Slider;
+			sourceTree = "<group>";
+		};
+		65D81DE5BB9AE65500000000 /* jsi */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6C99573B700000000 /* JSIDynamic.h */,
+				BC830EE650838AA500000000 /* decorator.h */,
+				BC830EE691C653FD00000000 /* instrumentation.h */,
+				BC830EE63003C1CE00000000 /* jsi-inl.h */,
+				BC830EE6B94EE1BC00000000 /* jsi.h */,
+				BC830EE697018C1700000000 /* jsilib.h */,
+				BC830EE6DAAC8F4200000000 /* threadsafe.h */,
+			);
+			name = jsi;
+			sourceTree = "<group>";
+		};
+		65D81DE5BF3DA66300000000 /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE657F1946300000000 /* RCTActivityIndicatorViewComponentView.h */,
+			);
+			name = ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		65D81DE5CC47265800000000 /* SafeAreaView */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE664559D6200000000 /* RCTSafeAreaShadowView.h */,
+				BC830EE69EAB389700000000 /* RCTSafeAreaView.h */,
+				BC830EE69BFE4D5D00000000 /* RCTSafeAreaViewLocalData.h */,
+				BC830EE62A5AB49000000000 /* RCTSafeAreaViewManager.h */,
+			);
+			name = SafeAreaView;
+			sourceTree = "<group>";
+		};
+		65D81DE5D24D844D00000000 /* Inspector */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6F65F522000000000 /* RCTInspector.h */,
+				BC830EE60E2B5A8700000000 /* RCTInspectorPackagerConnection.h */,
+			);
+			name = Inspector;
+			sourceTree = "<group>";
+		};
+		65D81DE5D4AF052F00000000 /* DevSupport */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6D35FB20C00000000 /* RCTDevLoadingView.h */,
+				BC830EE629B4B39D00000000 /* RCTDevMenu.h */,
+				BC830EE6B34B505900000000 /* RCTInspectorDevServerHelper.h */,
+				BC830EE6AE5F7C5200000000 /* RCTPackagerClient.h */,
+				BC830EE6A96538A200000000 /* RCTPackagerConnection.h */,
+			);
+			name = DevSupport;
+			sourceTree = "<group>";
+		};
+		65D81DE5DBFDD07000000000 /* x */ = {
+			isa = PBXGroup;
+			children = (
+				65D81DE5DBFDD07000000001 /* x */,
+			);
+			name = x;
+			sourceTree = "<group>";
+		};
+		65D81DE5DBFDD07000000001 /* x */ = {
+			isa = PBXGroup;
+			children = (
+				65D81DE5944839F600000000 /* app */,
+			);
+			name = x;
+			sourceTree = "<group>";
+		};
+		65D81DE5DF681A6C00000000 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6123BFCD200000000 /* RCTAccessibilityManager.h */,
+				BC830EE6D0F16FEB00000000 /* RCTAlertManager.h */,
+				BC830EE6CDC744F100000000 /* RCTAppState.h */,
+				BC830EE656EBA09E00000000 /* RCTAsyncLocalStorage.h */,
+				BC830EE6D3C4555D00000000 /* RCTClipboard.h */,
+				BC830EE689AB2A1400000000 /* RCTDevSettings.h */,
+				BC830EE65D936F6900000000 /* RCTDeviceInfo.h */,
+				BC830EE666A97F2300000000 /* RCTEventEmitter.h */,
+				BC830EE67611D67900000000 /* RCTI18nManager.h */,
+				BC830EE68448EE9200000000 /* RCTI18nUtil.h */,
+				BC830EE666C1121B00000000 /* RCTKeyboardObserver.h */,
+				BC830EE649DC96F300000000 /* RCTLayoutAnimation.h */,
+				BC830EE64712D4C100000000 /* RCTLayoutAnimationGroup.h */,
+				BC830EE66BE8C28700000000 /* RCTRedBox.h */,
+				BC830EE60221BCB700000000 /* RCTRedBoxExtraDataViewController.h */,
+				BC830EE6B51561A700000000 /* RCTSourceCode.h */,
+				BC830EE664C7050800000000 /* RCTStatusBarManager.h */,
+				BC830EE6E2EADC6500000000 /* RCTSurfacePresenterStub.h */,
+				BC830EE60245F06B00000000 /* RCTTVNavigationEventEmitter.h */,
+				BC830EE61F0F7EE600000000 /* RCTTiming.h */,
+				BC830EE683A1D14500000000 /* RCTUIManager.h */,
+				BC830EE61ED07C5100000000 /* RCTUIManagerObserverCoordinator.h */,
+				BC830EE6F27DD0D800000000 /* RCTUIManagerUtils.h */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		65D81DE5DFCD4F8100000000 /* UnimplementedComponent */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE66508F74800000000 /* RCTUnimplementedNativeComponentView.h */,
+			);
+			name = UnimplementedComponent;
+			sourceTree = "<group>";
+		};
+		65D81DE5E28C7D8000000000 /* BazelAppSwift-intermediates */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6E27AC65000000000 /* Info.plist */,
+			);
+			name = "BazelAppSwift-intermediates";
+			sourceTree = "<group>";
+		};
+		65D81DE5EC3AAB1500000000 /* bazel-tulsi-includes */ = {
+			isa = PBXGroup;
+			children = (
+				65D81DE5DBFDD07000000000 /* x */,
+			);
+			name = "bazel-tulsi-includes";
+			sourceTree = "<group>";
+		};
+		65D81DE5EE18783400000000 /* yoga */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE69C6E85DC00000000 /* Bitfield.h */,
+				BC830EE6B467B50400000000 /* CompactValue.h */,
+				BC830EE683D9A21800000000 /* Utils.h */,
+				BC830EE63895FF0200000000 /* YGConfig.h */,
+				BC830EE661025F3000000000 /* YGEnums.h */,
+				BC830EE6D6E6E84200000000 /* YGFloatOptional.h */,
+				BC830EE671FD154100000000 /* YGLayout.h */,
+				BC830EE69E84042000000000 /* YGMacros.h */,
+				BC830EE618ECAADE00000000 /* YGNode.h */,
+				BC830EE63ED3346B00000000 /* YGNodePrint.h */,
+				BC830EE62D04361B00000000 /* YGStyle.h */,
+				BC830EE63638892300000000 /* YGValue.h */,
+				BC830EE616293DA500000000 /* Yoga-internal.h */,
+				BC830EE60BC4909A00000000 /* Yoga.h */,
+				65D81DE5706BAFFD00000000 /* event */,
+				65D81DE50098C95800000000 /* internal */,
+				BC830EE64629FFA200000000 /* log.h */,
+			);
+			name = yoga;
+			sourceTree = "<group>";
+		};
+		65D81DE5F579C5E800000000 /* mainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				65D81DE531EB7E8500000000 /* Products */,
+				65D81DE5944839F600000001 /* app */,
+				65D81DE51193959600000000 /* react */,
+			);
+			name = mainGroup;
+			sourceTree = SOURCE_ROOT;
+		};
+		65D81DE5F8F9598500000000 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE6224CB63E00000000 /* RCTViewComponentView.h */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		65D81DE5FFF3B56E00000000 /* CxxBridge */ = {
+			isa = PBXGroup;
+			children = (
+				BC830EE65D07DAA100000000 /* JSCExecutorFactory.h */,
+				BC830EE6BAD9ADF100000000 /* NSDataBigString.h */,
+				BC830EE639704CBE00000000 /* RCTCxxBridgeDelegate.h */,
+				BC830EE6EE82767D00000000 /* RCTMessageThread.h */,
+				BC830EE693D4BF1500000000 /* RCTObjcExecutor.h */,
+			);
+			name = CxxBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		111948F59A6FC6E400000000 /* _bazel_clean_ */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "\"/Users/josue/.bin/bazel\" \"bazel-bin\"";
+			buildConfigurationList = 0D3D5EA0E9E2AA3500000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */;
+			buildPhases = (
+			);
+			buildToolPath = "${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_clean.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = _bazel_clean_;
+			passBuildSettingsInEnvironment = 1;
+			productName = _bazel_clean_;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		2EC5C41D2D06266000000000 /* ObjcLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3D5EA0252C285D00000000 /* Build configuration list for PBXNativeTarget "ObjcLib" */;
+			buildPhases = (
+				5FC73AD98F4E9EB000000000 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE28F9479A6FC6E500000000 /* PBXTargetDependency */,
+			);
+			name = ObjcLib;
+			productName = ObjcLib;
+			productReference = BC830EE6E1B51EE200000000 /* libObjcLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2EC5C41D3128DED400000000 /* _idx_ObjcLib_09D04FD6_ios_min10.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3D5EA0FF9CDBFF00000000 /* Build configuration list for PBXNativeTarget "_idx_ObjcLib_09D04FD6_ios_min10.0" */;
+			buildPhases = (
+				59E988410000000000000000 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE28F9479A6FC6E500000000 /* PBXTargetDependency */,
+			);
+			name = _idx_ObjcLib_09D04FD6_ios_min10.0;
+			productName = _idx_ObjcLib_09D04FD6_ios_min10.0;
+			productReference = BC830EE68D6E175800000000 /* lib_idx_ObjcLib_09D04FD6_ios_min10.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2EC5C41D5B5E374600000000 /* _idx_SwiftLib_5B63E32C_ios_min10.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3D5EA07C25F64700000000 /* Build configuration list for PBXNativeTarget "_idx_SwiftLib_5B63E32C_ios_min10.0" */;
+			buildPhases = (
+				59E988410000000000000001 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE28F9479A6FC6E500000000 /* PBXTargetDependency */,
+				FE28F9473128DED500000000 /* PBXTargetDependency */,
+			);
+			name = _idx_SwiftLib_5B63E32C_ios_min10.0;
+			productName = _idx_SwiftLib_5B63E32C_ios_min10.0;
+			productReference = BC830EE6710FCCA400000000 /* _idx_SwiftLib_5B63E32C_ios_min10.0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2EC5C41D7601658C00000000 /* SwiftLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3D5EA0036003B800000000 /* Build configuration list for PBXNativeTarget "SwiftLib" */;
+			buildPhases = (
+				5FC73AD92848F89D00000000 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE28F9479A6FC6E500000000 /* PBXTargetDependency */,
+			);
+			name = SwiftLib;
+			productName = SwiftLib;
+			productReference = BC830EE60F247CE400000000 /* libSwiftLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2EC5C41D9420BB5C00000000 /* BazelAppSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3D5EA0017B6B6000000000 /* Build configuration list for PBXNativeTarget "BazelAppSwift" */;
+			buildPhases = (
+				5FC73AD99E9964DE00000000 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE28F9479A6FC6E500000000 /* PBXTargetDependency */,
+			);
+			name = BazelAppSwift;
+			productName = BazelAppSwift;
+			productReference = BC830EE6B34D1F6600000000 /* BazelAppSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		169347B0CA105DAE00000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 0D3D5EA086972CEF00000000 /* Build configuration list for PBXProject "BazelAppSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65D81DE5F579C5E800000000 /* mainGroup */;
+			targets = (
+				2EC5C41D9420BB5C00000000 /* BazelAppSwift */,
+				2EC5C41D2D06266000000000 /* ObjcLib */,
+				2EC5C41D7601658C00000000 /* SwiftLib */,
+				111948F59A6FC6E400000000 /* _bazel_clean_ */,
+				2EC5C41D3128DED400000000 /* _idx_ObjcLib_09D04FD6_ios_min10.0 */,
+				2EC5C41D5B5E374600000000 /* _idx_SwiftLib_5B63E32C_ios_min10.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FC73AD92848F89D00000000 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //app:SwiftLib --bazel \"/Users/josue/.bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+			showEnvVarsInLog = 1;
+		};
+		5FC73AD98F4E9EB000000000 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //app:ObjcLib --bazel \"/Users/josue/.bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+			showEnvVarsInLog = 1;
+		};
+		5FC73AD99E9964DE00000000 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //app:BazelAppSwift --bazel \"/Users/josue/.bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59E988410000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				276A9623F15DFFDF00000000 /* RNView.m in app */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E988410000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				276A9623A7D90C1000000000 /* AppDelegate.swift in app */,
+				276A9623787DDD0500000000 /* ViewController.swift in app */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE28F9473128DED500000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			targetProxy = 6EA342993128DED500000000 /* PBXContainerItemProxy */;
+		};
+		FE28F9479A6FC6E500000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			targetProxy = 6EA342999A6FC6E500000000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44EAA31D1EA5AA8D00000000 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				SWIFT_VERSION = 5.2;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-workspace";
+				TULSI_PROJECT = BazelAppSwift;
+				TULSI_VERSION = 0.20191211.88;
+				TULSI_WR = "$(SRCROOT)";
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		44EAA31D1EA5AA8D00000001 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//app:BazelAppSwift";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bazel.app;
+				PRODUCT_NAME = BazelAppSwift;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = app;
+				TULSI_XCODE_VERSION = 11.4.0.11E146;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		44EAA31D1EA5AA8D00000002 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//app:ObjcLib";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = ObjcLib;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = app;
+				TULSI_XCODE_VERSION = 11.4.0.11E146;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		44EAA31D1EA5AA8D00000003 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//app:SwiftLib";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = SwiftLib;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = app;
+				TULSI_XCODE_VERSION = 11.4.0.11E146;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		44EAA31D2D35184C00000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(TULSI_BWRS) $(TULSI_WR)/bazel-bin $(TULSI_WR)/bazel-genfiles $(TULSI_BWRS)/bazel-tulsi-includes/x/x";
+				ONLY_ACTIVE_ARCH = YES;
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.2;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-workspace";
+				TULSI_PROJECT = BazelAppSwift;
+				TULSI_VERSION = 0.20191211.88;
+				TULSI_WR = "$(SRCROOT)";
+			};
+			name = Release;
+		};
+		44EAA31D2D35184C00000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//app:BazelAppSwift";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bazel.app;
+				PRODUCT_NAME = BazelAppSwift;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = app;
+				TULSI_XCODE_VERSION = 11.4.0.11E146;
+			};
+			name = Release;
+		};
+		44EAA31D2D35184C00000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//app:ObjcLib";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ObjcLib;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = app;
+				TULSI_XCODE_VERSION = 11.4.0.11E146;
+			};
+			name = Release;
+		};
+		44EAA31D2D35184C00000003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//app:SwiftLib";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = SwiftLib;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = app;
+				TULSI_XCODE_VERSION = 11.4.0.11E146;
+			};
+			name = Release;
+		};
+		44EAA31D2D35184C00000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "$(inherited) $(TULSI_WR)/bazel-tulsi-includes/x/x/react/headers $(TULSI_WR)/react/headers $(TULSI_WR)/bazel-tulsi-includes/x/x/ $(TULSI_BWRS)/bazel-tulsi-includes/x/x/react/headers $(TULSI_BWRS)/react/headers $(TULSI_BWRS)/bazel-tulsi-includes/x/x/ ";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_CFLAGS = "-D_FORTIFY_SOURCE=1 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\"";
+				PRODUCT_NAME = _idx_ObjcLib_09D04FD6_ios_min10.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		44EAA31D2D35184C00000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "$(inherited) $(TULSI_WR)/bazel-tulsi-includes/x/x/react/headers $(TULSI_WR)/react/headers $(TULSI_WR)/bazel-tulsi-includes/x/x/ $(TULSI_BWRS)/bazel-tulsi-includes/x/x/react/headers $(TULSI_BWRS)/react/headers $(TULSI_BWRS)/bazel-tulsi-includes/x/x/ $(TULSI_BWRS)/bazel-tulsi-includes/x/x/react/ReactLib.modulemaps $(TULSI_BWRS)/bazel-tulsi-includes/x/x/app/ObjcLib.modulemaps ";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_CFLAGS = "-D_FORTIFY_SOURCE=1 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\"";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xwrapped-swift=-debug-prefix-pwd-is-dot -Xfrontend -no-clang-module-breadcrumbs -Xcc -fmodule-map-file=$(TULSI_BWRS)/bazel-tulsi-includes/x/x/react/ReactLib.modulemaps/module.modulemap -Xcc -fmodule-map-file=$(TULSI_BWRS)/bazel-tulsi-includes/x/x/app/ObjcLib.modulemaps/module.modulemap";
+				PRODUCT_NAME = _idx_SwiftLib_5B63E32C_ios_min10.0;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_BWRS)/bazel-tulsi-includes/x/x/app";
+			};
+			name = Release;
+		};
+		44EAA31D41CC448700000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(TULSI_BWRS) $(TULSI_WR)/bazel-bin $(TULSI_WR)/bazel-genfiles $(TULSI_BWRS)/bazel-tulsi-includes/x/x";
+				ONLY_ACTIVE_ARCH = YES;
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.2;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-workspace";
+				TULSI_PROJECT = BazelAppSwift;
+				TULSI_VERSION = 0.20191211.88;
+				TULSI_WR = "$(SRCROOT)";
+			};
+			name = Debug;
+		};
+		44EAA31D41CC448700000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//app:BazelAppSwift";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bazel.app;
+				PRODUCT_NAME = BazelAppSwift;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = app;
+				TULSI_XCODE_VERSION = 11.4.0.11E146;
+			};
+			name = Debug;
+		};
+		44EAA31D41CC448700000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//app:ObjcLib";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ObjcLib;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = app;
+				TULSI_XCODE_VERSION = 11.4.0.11E146;
+			};
+			name = Debug;
+		};
+		44EAA31D41CC448700000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//app:SwiftLib";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = SwiftLib;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = app;
+				TULSI_XCODE_VERSION = 11.4.0.11E146;
+			};
+			name = Debug;
+		};
+		44EAA31D41CC448700000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "$(inherited) $(TULSI_WR)/bazel-tulsi-includes/x/x/react/headers $(TULSI_WR)/react/headers $(TULSI_WR)/bazel-tulsi-includes/x/x/ $(TULSI_BWRS)/bazel-tulsi-includes/x/x/react/headers $(TULSI_BWRS)/react/headers $(TULSI_BWRS)/bazel-tulsi-includes/x/x/ ";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_CFLAGS = "-D_FORTIFY_SOURCE=1 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\"";
+				PRODUCT_NAME = _idx_ObjcLib_09D04FD6_ios_min10.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		44EAA31D41CC448700000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "$(inherited) $(TULSI_WR)/bazel-tulsi-includes/x/x/react/headers $(TULSI_WR)/react/headers $(TULSI_WR)/bazel-tulsi-includes/x/x/ $(TULSI_BWRS)/bazel-tulsi-includes/x/x/react/headers $(TULSI_BWRS)/react/headers $(TULSI_BWRS)/bazel-tulsi-includes/x/x/ $(TULSI_BWRS)/bazel-tulsi-includes/x/x/react/ReactLib.modulemaps $(TULSI_BWRS)/bazel-tulsi-includes/x/x/app/ObjcLib.modulemaps ";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_CFLAGS = "-D_FORTIFY_SOURCE=1 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\"";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xwrapped-swift=-debug-prefix-pwd-is-dot -Xfrontend -no-clang-module-breadcrumbs -Xcc -fmodule-map-file=$(TULSI_BWRS)/bazel-tulsi-includes/x/x/react/ReactLib.modulemaps/module.modulemap -Xcc -fmodule-map-file=$(TULSI_BWRS)/bazel-tulsi-includes/x/x/app/ObjcLib.modulemaps/module.modulemap";
+				PRODUCT_NAME = _idx_SwiftLib_5B63E32C_ios_min10.0;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_BWRS)/bazel-tulsi-includes/x/x/app";
+			};
+			name = Debug;
+		};
+		44EAA31DD80CD5D500000000 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				SWIFT_VERSION = 5.2;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-workspace";
+				TULSI_PROJECT = BazelAppSwift;
+				TULSI_VERSION = 0.20191211.88;
+				TULSI_WR = "$(SRCROOT)";
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		44EAA31DD80CD5D500000001 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//app:BazelAppSwift";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bazel.app;
+				PRODUCT_NAME = BazelAppSwift;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = app;
+				TULSI_XCODE_VERSION = 11.4.0.11E146;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		44EAA31DD80CD5D500000002 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//app:ObjcLib";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = ObjcLib;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = app;
+				TULSI_XCODE_VERSION = 11.4.0.11E146;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		44EAA31DD80CD5D500000003 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//app:SwiftLib";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = SwiftLib;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = app;
+				TULSI_XCODE_VERSION = 11.4.0.11E146;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D3D5EA0017B6B6000000000 /* Build configuration list for PBXNativeTarget "BazelAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EAA31D41CC448700000001 /* Debug */,
+				44EAA31D2D35184C00000001 /* Release */,
+				44EAA31DD80CD5D500000001 /* __TulsiTestRunner_Debug */,
+				44EAA31D1EA5AA8D00000001 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D3D5EA0036003B800000000 /* Build configuration list for PBXNativeTarget "SwiftLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EAA31D41CC448700000003 /* Debug */,
+				44EAA31D2D35184C00000003 /* Release */,
+				44EAA31DD80CD5D500000003 /* __TulsiTestRunner_Debug */,
+				44EAA31D1EA5AA8D00000003 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D3D5EA0252C285D00000000 /* Build configuration list for PBXNativeTarget "ObjcLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EAA31D41CC448700000002 /* Debug */,
+				44EAA31D2D35184C00000002 /* Release */,
+				44EAA31DD80CD5D500000002 /* __TulsiTestRunner_Debug */,
+				44EAA31D1EA5AA8D00000002 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D3D5EA07C25F64700000000 /* Build configuration list for PBXNativeTarget "_idx_SwiftLib_5B63E32C_ios_min10.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EAA31D41CC448700000005 /* Debug */,
+				44EAA31D2D35184C00000005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D3D5EA086972CEF00000000 /* Build configuration list for PBXProject "BazelAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EAA31D41CC448700000000 /* Debug */,
+				44EAA31D2D35184C00000000 /* Release */,
+				44EAA31DD80CD5D500000000 /* __TulsiTestRunner_Debug */,
+				44EAA31D1EA5AA8D00000000 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D3D5EA0E9E2AA3500000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D3D5EA0FF9CDBFF00000000 /* Build configuration list for PBXNativeTarget "_idx_ObjcLib_09D04FD6_ios_min10.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EAA31D41CC448700000004 /* Debug */,
+				44EAA31D2D35184C00000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 169347B0CA105DAE00000000 /* Project object */;
+}

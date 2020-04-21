@@ -1,0 +1,29 @@
+
+<Scheme LastUpgradeVersion="1000" version="1.3">
+    <BuildAction parallelizeBuildables="YES" buildImplicitDependencies="YES">
+        <BuildActionEntries>
+            <BuildActionEntry buildForTesting="YES" buildForRunning="YES" buildForProfiling="YES" buildForArchiving="YES" buildForAnalyzing="YES">
+                <BuildableReference BuildableName="libSwiftLib.a" BlueprintName="SwiftLib" ReferencedContainer="container:BazelAppSwift.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="2EC5C41D7601658C00000000"></BuildableReference>
+            </BuildActionEntry>
+        </BuildActionEntries>
+    </BuildAction>
+    <TestAction selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" buildConfiguration="__TulsiTestRunner_Debug" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" shouldUseLaunchSchemeArgsEnv="YES">
+        <Testables></Testables>
+        <BuildableProductRunnable runnableDebuggingMode="0">
+            <BuildableReference BlueprintIdentifier="2EC5C41D7601658C00000000" BuildableName="libSwiftLib.a" ReferencedContainer="container:BazelAppSwift.xcodeproj" BuildableIdentifier="primary" BlueprintName="SwiftLib"></BuildableReference>
+        </BuildableProductRunnable>
+    </TestAction>
+    <LaunchAction allowLocationSimulation="YES" debugDocumentVersioning="YES" useCustomWorkingDirectory="NO" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" buildConfiguration="Debug" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" launchStyle="0" debugServiceExtension="internal" ignoresPersistentStateOnLaunch="NO">
+        <EnvironmentVariables></EnvironmentVariables>
+        <MacroExpansion>
+            <BuildableReference BlueprintName="SwiftLib" ReferencedContainer="container:BazelAppSwift.xcodeproj" BlueprintIdentifier="2EC5C41D7601658C00000000" BuildableName="libSwiftLib.a" BuildableIdentifier="primary"></BuildableReference>
+        </MacroExpansion>
+    </LaunchAction>
+    <ProfileAction buildConfiguration="__TulsiTestRunner_Release" shouldUseLaunchSchemeArgsEnv="YES" useCustomWorkingDirectory="NO" debugDocumentVersioning="YES">
+        <MacroExpansion>
+            <BuildableReference BlueprintName="SwiftLib" BuildableName="libSwiftLib.a" ReferencedContainer="container:BazelAppSwift.xcodeproj" BlueprintIdentifier="2EC5C41D7601658C00000000" BuildableIdentifier="primary"></BuildableReference>
+        </MacroExpansion>
+    </ProfileAction>
+    <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>
+    <ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES"></ArchiveAction>
+</Scheme>

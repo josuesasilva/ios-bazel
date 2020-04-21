@@ -1,0 +1,29 @@
+
+<Scheme LastUpgradeVersion="1000" version="1.3">
+    <BuildAction parallelizeBuildables="YES" buildImplicitDependencies="YES">
+        <BuildActionEntries>
+            <BuildActionEntry buildForTesting="YES" buildForProfiling="YES" buildForArchiving="YES" buildForRunning="YES" buildForAnalyzing="YES">
+                <BuildableReference BuildableIdentifier="primary" BuildableName="BazelAppSwift.app" BlueprintIdentifier="2EC5C41D9420BB5C00000000" ReferencedContainer="container:BazelAppSwift.xcodeproj" BlueprintName="BazelAppSwift"></BuildableReference>
+            </BuildActionEntry>
+        </BuildActionEntries>
+    </BuildAction>
+    <TestAction buildConfiguration="__TulsiTestRunner_Debug" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" shouldUseLaunchSchemeArgsEnv="YES">
+        <Testables></Testables>
+        <BuildableProductRunnable runnableDebuggingMode="0">
+            <BuildableReference ReferencedContainer="container:BazelAppSwift.xcodeproj" BlueprintIdentifier="2EC5C41D9420BB5C00000000" BlueprintName="BazelAppSwift" BuildableIdentifier="primary" BuildableName="BazelAppSwift.app"></BuildableReference>
+        </BuildableProductRunnable>
+    </TestAction>
+    <LaunchAction useCustomWorkingDirectory="NO" debugServiceExtension="internal" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" ignoresPersistentStateOnLaunch="NO" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" buildConfiguration="Debug" launchStyle="0" allowLocationSimulation="YES" debugDocumentVersioning="YES">
+        <EnvironmentVariables></EnvironmentVariables>
+        <BuildableProductRunnable runnableDebuggingMode="0">
+            <BuildableReference BlueprintIdentifier="2EC5C41D9420BB5C00000000" ReferencedContainer="container:BazelAppSwift.xcodeproj" BlueprintName="BazelAppSwift" BuildableName="BazelAppSwift.app" BuildableIdentifier="primary"></BuildableReference>
+        </BuildableProductRunnable>
+    </LaunchAction>
+    <ProfileAction buildConfiguration="__TulsiTestRunner_Release" shouldUseLaunchSchemeArgsEnv="YES" useCustomWorkingDirectory="NO" debugDocumentVersioning="YES">
+        <BuildableProductRunnable runnableDebuggingMode="0">
+            <BuildableReference BlueprintName="BazelAppSwift" BlueprintIdentifier="2EC5C41D9420BB5C00000000" BuildableName="BazelAppSwift.app" ReferencedContainer="container:BazelAppSwift.xcodeproj" BuildableIdentifier="primary"></BuildableReference>
+        </BuildableProductRunnable>
+    </ProfileAction>
+    <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>
+    <ArchiveAction revealArchiveInOrganizer="YES" buildConfiguration="Release"></ArchiveAction>
+</Scheme>
