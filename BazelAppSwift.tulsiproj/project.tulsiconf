@@ -1,0 +1,15 @@
+{
+  "configDefaults" : {
+    "optionSet" : {
+      "SwiftForcesdSYMs" : {
+        "p" : "YES"
+      }
+    }
+  },
+  "packages" : [
+    "app",
+    "react"
+  ],
+  "projectName" : "BazelAppSwift",
+  "workspaceRoot" : ".."
+}

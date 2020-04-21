@@ -1,0 +1,10 @@
+{
+  "optionSet" : {
+    "BazelPath" : {
+      "p" : "/Users/josue/.bin/bazel"
+    },
+    "WorkspaceRootPath" : {
+      "p" : "/Users/josue/workspace/ios-bazel"
+    }
+  }
+}
